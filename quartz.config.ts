@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "mklbgr-spectre.github.io/vault-sr.",
+    baseUrl: "mklbgr-spectre.github.io/vault-sr",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
