@@ -25,3 +25,8 @@
 - [ ] **Lord Edmund Ashford** — his girlfriend was a Black Veil assassin and his house was set on fire. Needs handling.
 - [ ] **Fariel's unknown benefactor** — who is funding him and why? Potential meta-plot connection.
 - [ ] **Shane's father** — double agent for an unknown faction. Which faction? Black Veil or something separate?
+
+
+
+
+claude --resume 51c5fc9d-d5c1-4fdc-b9f4-bc40c7b577bd
