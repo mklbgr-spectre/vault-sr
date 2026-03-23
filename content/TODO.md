@@ -17,6 +17,12 @@
 
 ---
 
+## Between-Arc Decisions
+
+- [ ] **Veth's ultimate fate** — currently in KE Seattle custody, Knights have debrief access. Decide: handed to KE long-term, transferred to Knights custody, released with conditions, or something else. Affects the MERIDIAN-7/Johnson thread and what Veth's knowledge can be used for going forward.
+
+---
+
 ## Open Story Threads
 
 - [ ] **Vivienne Ashcroft** — plays Khan-in-the-brig: cryptic, controlled, impossible to crack. Decide before HQ attack whether she is a sacrifice or a planted sleeper.

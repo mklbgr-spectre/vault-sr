@@ -4,8 +4,8 @@ In the Fourth World, the immortal sorcerer Xa'erithal Sutekh was too powerful to
 
 The artifacts survived into the Sixth World largely dormant — mistaken for myth, relics, or mundane objects. As mana levels rise, they are reawakening.
 
-> [!warning] GM Eyes Only
-> Players know only that pre-Awakening artifacts exist and that someone is collecting them. They do not know the number, the fragments, or Xa'erithal Sutekh's name.
+> [!warning] GM Eyes Only — Updated After Arc 7
+> **Players now know:** There are 6 artifacts. The fragment names (Mind, Will, Time, Threshold, Flesh, Power). The sorcerer's name — **Xa'Suthek** — as a figure from Fourth World legend/fable. They do not yet know the full scope of the resurrection plan, the Patron's connection, or which artifacts the Knights hold vs. which are still missing.
 
 ---
 
@@ -16,9 +16,9 @@ The artifacts survived into the Sixth World largely dormant — mistaken for myt
 | Will | The Shard of Will | Knights HQ | Party (Arc 3) |
 | Threshold | The Liminal | Knights HQ | Party (Arc 4) |
 | Time | The Chronos Sigil | Knights HQ | Party (Arc 6, extracted in downtime) |
+| Flesh | The Beating Ruby *(player name)* | Knights HQ | Party (Arc 7, Seattle) |
 | Mind | Unknown | The Patron | Never recovered — possibly part of him |
-| [TBD] | Unknown | Unknown | Undiscovered |
-| [TBD] | Unknown | Unknown | Undiscovered |
+| Power | Unknown | Unknown | Undiscovered |
 
 ---
 
@@ -71,15 +71,17 @@ The artifacts survived into the Sixth World largely dormant — mistaken for myt
 
 ---
 
-## The Flesh Artifact *(unnamed)*
+## The Flesh Artifact — *"The Beating Ruby"*
 
 **Fragment:** Flesh
-**Form:** Unknown
-**Location:** Unknown
-**Abilities:** Unknown — but the Flesh fragment suggests control or manipulation of the physical body. Body horror direction: reanimation, corpse puppeteering, forced transformation, or something that blurs the line between living and dead.
+**Form:** A small carved stone disc, dark grey, with markings that don't match any known tradition. In appearance: resembles a deep red ruby, faceted, with a slow rhythmic glow from within — like a heartbeat. Warm to the touch in a way that has nothing to do with room temperature.
+**Location:** Knights HQ vault — recovered Arc 7, Seattle.
+**Abilities:** Amplifies biological imprint work — specifically, the reconstruction of physical form from an astral template. Used by Dr. Casimir Veth for eight months to power his magical cloning process. Without it his process would never have produced viable copies; with it, the copies were almost people.
 
-> [!note] Adventure Hook
-> This one screams body horror — zombies, grotesque physical transformation, something viscerally wrong. The artifact likely surfaces in a context where bodies are already involved: a hospital, a morgue, a cult, a black-market biotech operation.
+**History:** Acquired by Veth through a private collector approximately one year before Arc 7. He incorporated it into his apparatus believing it to be a powerful but inert pre-Awakening focus. He never understood what it was. The Patron funded Veth's project specifically to keep the artifact in active use — priming it — and had no interest in the copies themselves. Recovered by the party from Veth's lab in Everett, Seattle. Relay disengaged it from the apparatus. Solís (KE Seattle) officially released it into Knights custody at the party's request.
+
+> [!note] Player Description
+> When Relay touched it to disengage it from the apparatus, she felt its age — pre-Awakening, patient, indifferent. Something that had been waiting. The players described it as looking like "a red ruby from Zelda with a beating heart glow inside." That's now its table name.
 
 ---
 

@@ -24,10 +24,10 @@
 
 | Character | Player | Rank | Notes |
 |-----------|--------|------|-------|
-| Gareth | Jake | Knight Errant | |
-| Willow | Simi | Knight Errant | |
-| Shane Hunt | Kiki | Knight Errant | |
-| Relay (Nadia Safiya) | Mike (GM) | Knight Errant | |
+| Fariel (Aldren Valior) | Clemens | Knight Errant | Elf, illusion and mind magic. Absent Arc 7. |
+| Willow | Simi | Knight Errant | Pixie, shapeshifting and illusion. |
+| Shane Hunt | Kiki | Knight Errant | Satyr, physical adept. |
+| Relay (Nadia Safiya) | Mike (GM) | Knight Errant | Human, Egyptian magical traditions. GM character. |
 
 - Rank promoted from **Squire → Knight Errant** after Arc 3 (Smuggling in the Docks)
 - Promotion trigger: Successfully recovering the Shard of Will and their first contact with the campaign's main antagonist
@@ -100,6 +100,20 @@
 - **No meta-plot connection:** Standalone. No link to the Patron or the artifacts.
 - **Outcome:** The party chose not to pursue charges against the 18 students — too many powerful upper-class families involved, too much political blowback. The case was quietly dropped. Vale was offered a deal: conscripted into the Knights of the Chalice in exchange for the Order not pursuing his role in the murder. He is now a Knights asset, more or less against his will.
 
+### Arc 7 — The Everett Copies
+- **Status:** Resolved
+- **Location:** Seattle, UCAS
+- **Party:** Willow, Shane, Relay (Fariel absent — Relay's player Mike ran Solís as his table presence)
+- **Handler:** Evelyn Drake
+- **Setup:** KE Seattle flagged an unusual case via KE London to the Knights — five identical unidentified bodies found in the tree line north of Seattle, DNA corrupted, faces destroyed post-mortem. A British national, **Daniel Okafor**, kept appearing as the only lead but remained clean. Drake sent three Knights as outside eyes, official hook being consular interest in a British national.
+- **The Truth:** Dr. Casimir Veth — contracted forensic pathologist for KE Seattle, and the party's own briefing consultant — had been running an unsanctioned magical cloning project for eight months from a rented lab in Everett. He was harvesting Okafor's aura during sleep from his flat directly across the street, using the imprint to produce copies. The copies were almost people — aware, frightened, and short-lived. He terminated and disposed of each one when it degraded. He processed his own work as the MCU's forensic consultant throughout.
+- **The Flesh Artifact:** Worked into Veth's apparatus, acquired through a private collector, described by Veth as a powerful pre-Awakening focus. He never understood what it was. It was the reason his process worked at all — without it his theory would have remained a theory. The Patron had funded Veth specifically to keep it in active use, priming it. Veth believed he had a patient corporate backer. His Month 6 log entry shows he almost figured this out and chose not to pursue it.
+- **Key NPC — Detective Yara Solís:** MCU detective and party contact throughout. Face adept. Had been running the case for six weeks, in regular contact with Veth, and her instincts returned nothing — because he never lied to her. Was present at the lab confrontation. Officially released the artifact into Knights custody at the party's request.
+- **Improvised moment:** The party discussed going to Veth's apartment while standing in his earshot at the morgue. Veth sent a Spirit of Man to defend the apartment in anticipation. The party encountered it astrally and had to regroup to handle it together before proceeding.
+- **Resolution:** Veth was talked down rather than fought. Currently in KE Seattle custody. The Knights have access for debrief. The Johnson thread (codename MERIDIAN-7, shell company Cascadia Biomedical Research LLC) was logged for the Knights' hacker division to pull later.
+- **Artifact recovered:** The **Flesh fragment** — described by players as "a red ruby from Zelda with a beating heart glow inside." Now in Knights HQ vault. Fourth artifact in custody.
+- **Meta-plot significance:** Before the briefing, the party used the Knights' library to research the artifacts they already hold. With their rolls, they learned: there are **6 artifacts total**, their fragment names (Mind, Will, Time, Threshold, Flesh, Power), and the sorcerer's name — **Xa'Suthek** — as a figure from Fourth World legend. This is now player-facing knowledge.
+
 ### Arc 6 — New Year's Eve at Highdark Hall
 - **Status:** Most recent session — what actually happened?
 - **Handler:** Commander Alistair Grey (Senior Knight Operations Coordinator — *possibly the same person as "Sir Alistair Finch" from S04, name inconsistency to resolve*)
@@ -133,8 +147,8 @@
 
 *Plotlines that are unresolved or in progress.*
 
-- **The World Artifacts** — The party knows there are a number of powerful pre-Awakening artifacts circulating in London, and that at least one person in the city is aware of them and likely collecting them. They do not yet know how many there are, who is behind it, or what the artifacts are for. This is the spine of the larger campaign.
-- **Arc 3 loose ends** — Sergei, Viktor, and Nick Dupont's fates remain unresolved.
+- **The World Artifacts** — The party now knows: there are 6 artifacts, their fragment names, and the name **Xa'Suthek** as a Fourth World sorcerer from legend. Four are in Knights custody (Will, Threshold, Time, Flesh). One is held by the Patron (Mind). One remains undiscovered (Power). They do not yet know the resurrection plan, the Patron's connection to Xa'Suthek, or that the artifacts may already be primed.
+- **Arc 3 loose ends** — Sergei, Viktor, and Nick Dupont are all in prison. Resolved.
 - **Vivienne Ashcroft in custody** — A senior Black Veil operative. What does the Knights do with her? Does she talk? Does the Patron attempt to retrieve her?
 - **Highdark Hall** — Fire-damaged. Chronos Sigil extracted by Knights experts during party downtime. Mansion itself is a loose end — Edmund still lives there.
 - **Lord Edmund Ashford** — His girlfriend was a Black Veil assassin and his house was set on fire. He needs handling.
@@ -153,9 +167,11 @@
 | Marwen Vale | Knights of the Chalice (conscript) | Reluctant asset | Former assistant professor, mathematical genius. Orchestrated Crowley's murder, conscripted into the Knights as his deal. Brilliant, ascetic, morally cold. Does not want to be there. |
 | Vivienne Ashcroft | Black Veil (captured) | Prisoner | Real name Vivienne Margaux Corbeau. Blood magic specialist, "The Widow Maker." Extremely difficult to crack — cryptic, controlled, dangerous even in a cell. Known operations: Prague, Vienna, Edinburgh, London. Her role in the inevitable HQ attack is unknown: willing sacrifice, or planted sleeper. The ambiguity is intentional. |
 | Lucas Brennan | Lone Star | Ally (case-by-case) | Gruff 20-year veteran detective, works the Docklands. Too well-known to operate undercover. |
-| Sergei "The Fisher" Ivanov | Vory v Zakone | Antagonist | Artifact smuggling ring leader. Calculating, avoids violence. Status after Arc 3 unknown. |
-| Viktor "Red" Morozov | Vory v Zakone | Antagonist | Sergei's enforcer. Sadistic, flashy, dangerous. Status after Arc 3 unknown. |
-| Nicholas "Nick the Shade" Dupont | Unknown client | Antagonist | Buyer for the Shard of Will on behalf of the Patron. French accent, well-dressed, careful operator. Status unknown. |
+| Yara Solís | KE Seattle MCU | Contact (Seattle) | Face adept, MCU detective, 20 years on the job. Ran the Everett Copies case. Officially released the Flesh artifact to Knights custody. Owes them one and knows it. Solid recurring contact for Seattle operations. |
+| Dr. Casimir Veth | KE Seattle (custody) | Prisoner / Asset | Forensic pathologist, hermetic mage. Ran an unsanctioned magical cloning project using the Flesh artifact for 8 months. Talked down by the party. In KE Seattle custody pending Knights debrief. Genuinely brilliant — his theoretical framework for mnemonic imprinting is real and largely correct. |
+| Sergei "The Fisher" Ivanov | Vory v Zakone | Antagonist (imprisoned) | Artifact smuggling ring leader. Calculating, avoids violence. In prison following Arc 3. |
+| Viktor "Red" Morozov | Vory v Zakone | Antagonist (imprisoned) | Sergei's enforcer. Sadistic, flashy, dangerous. In prison following Arc 3. |
+| Nicholas "Nick the Shade" Dupont | Unknown client | Antagonist (imprisoned) | Buyer for the Shard of Will on behalf of the Patron. French accent, well-dressed, careful operator. In prison following Arc 3. |
 | The Patron | Black Veil (presumed) | Primary antagonist | Impossibly powerful mage. Resembles the Lord Protector. Teleported away at Arc 3 climax — unperturbed by losing the artifact. Funds proxies to do his archaeology. True identity unknown. |
 
 ---

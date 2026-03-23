@@ -66,7 +66,10 @@ The copy is no longer functional. It cannot stand, cannot speak coherently. It r
 He does not write: *I don't know why this keeps failing.*
 
 **Friday — Termination.**
-Veth terminates Experiment Six at the lab. Procedure takes approximately forty minutes. He is clinical. He has done this five times.
+Veth terminates Experiment Six at the lab using a prepared pharmaceutical cocktail — sedative followed by cardiac agents. Fast, clean, no distress. The procedure takes approximately forty minutes including preparation and cleanup. He is clinical. He has done this five times.
+
+> [!note] The Forensic Tell
+> The cause of death on every body pointed clearly to pharmaceutical precision — someone who knew exactly what to administer and in what order. This detail was in Solís's file and in Veth's own reports throughout the investigation. Nobody connected it to him while sitting across the table from him at the morgue.
 
 Body transport to the dump site north of the city happens the same night, between 0100 and 0300. He uses a rented vehicle, pays cash, takes a different route each time. Post-mortem destruction of identifying features is performed at the lab before transport — he has a procedure for this now. The first time it took him two hours and he was sick afterward. This time it takes twenty minutes.
 

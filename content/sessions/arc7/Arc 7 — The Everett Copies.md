@@ -2,8 +2,8 @@
 
 # Arc 7 — The Everett Copies
 
-> [!warning] Prep Document
-> Session planning file. Not yet canon — ingest into Campaign State after play.
+> [!note] Played — Ingested
+> Session played. Canon details ingested into [[Campaign State]] and [[Artifacts of Xa'erithal Sutekh]]. This file and supporting documents archived in `sessions/arc7/`.
 
 ---
 

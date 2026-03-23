@@ -1,4 +1,7 @@
-# GM — Meta Plot: The Return of Xa'erithal Sutekh
+# GM — Meta Plot: The Return of Xa'Suthek
+
+> [!note] Name Note
+> The sorcerer's name has been simplified to **Xa'Suthek** for use at the table going forward. Previous documents may still use the full form Xa'erithal Sutekh — treat as the same entity.
 
 > [!warning] GM Eyes Only
 > Players know only that pre-Awakening artifacts are circulating in London and that someone in the city is aware of them. They know nothing else on this page.
@@ -74,9 +77,18 @@ A covert, highly influential organisation working to recover all six artifacts a
 
 ## What the Knights of the Chalice Know
 
-The Knights are aware of Xa'erithal Sutekh only as **The Tale of the Seven Banishers** — an old legend, largely dismissed as folklore. The details in their records are murky and treated as myth.
+**Updated after Arc 7.** Before their Seattle briefing, the party researched the artifacts they already held using the Knights' library. With their rolls they learned:
+- There are **6 artifacts total**
+- The fragment names: Mind, Will, Time, Threshold, Flesh, Power
+- The name **Xa'Suthek** — as a figure from Fourth World legend, a sorcerer who was shattered and scattered by the Seven Banishers
 
-They know a shadowy organisation is behind the rising demand for pre-Awakening relics, but have **not yet connected it to Xa'erithal Sutekh**.
+They now have the shape of the mythology. They do not yet know:
+- That Xa'Suthek can be resurrected if the artifacts are reunited
+- That the Patron is connected to Xa'Suthek (carries the Mind fragment, or is shaped by it)
+- That the artifacts in the Knights' vault may already be primed
+- The identity or full capabilities of the Patron
+
+The Knights' library is one of the best Fourth World resources in the world for publicly accessible material. The party has likely extracted most of what it can offer on this topic. Further answers will come from fieldwork, not research.
 
 ---
 

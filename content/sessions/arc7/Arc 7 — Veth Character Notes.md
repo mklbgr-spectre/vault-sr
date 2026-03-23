@@ -7,6 +7,18 @@
 
 ---
 
+## At the Table — Actual Play Notes
+
+**Cause of death — the copies:** Terminated by Veth using a cocktail of syringes. Clean, fast, medical. The toxicology pointed clearly to someone with pharmaceutical knowledge and clinical precision — a detail that was present in the forensic record the entire time the party was sitting across from him at the morgue. Nobody made the connection until later.
+
+**On whether the copies were murder victims:** When the party pressed this at the confrontation, Veth's answer was: *"They were real humans for a few hours only. If I hadn't ended them when I did, they would have died a far worse death."*
+
+He believed this. It's not entirely wrong. He created the conditions that made it true, decided termination was mercy, and used that mercy as moral cover for everything that preceded it. A closed loop he constructed carefully and has never examined from the outside.
+
+This will be the central question in any formal debrief — and his answer will be the most revealing thing he says.
+
+---
+
 ## At a Glance
 
 Human male, early 50s. Eastern European origin. Forensic pathologist, contracted specialist for Knight Errant Seattle. Awakened — hermetic tradition, self-taught in biological imprint theory. Thin, precise, unhurried. Has the manner of someone who stopped caring about social performance a long time ago.
