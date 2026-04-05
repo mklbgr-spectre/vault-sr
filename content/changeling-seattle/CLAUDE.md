@@ -68,6 +68,20 @@ When expanding into Obsidian format, organize around:
 - `one-shot/` — pregens, scene outline, handouts
 - `unused-ideas/` — holding area for good concepts not yet placed
 
+## Working Notes
+
+- If rulebook material would be useful for a task (mechanics, kith descriptions, arts, etc.), ask the user to paste the relevant section into an Obsidian page — they can provide it on request.
+
+## Language
+
+- All GM-facing notes, design documents, and vault structure are written in **English**.
+- The GM and all players are native German speakers but read English fine — no issue with written English at the table.
+- **Character sheets:** English — players use the English rulebook to reference their characters.
+- **Read-aloud descriptions and atmospheric text:** German.
+- **Handouts:** case by case —
+  - Personal content (letters, diary entries, notes): German
+  - Official documents: language appropriate to the fiction (a Seattle search warrant in English, a letter from a German character in German, etc.)
+
 ## Tone and Framing Notes
 
 - Banality arrives as mundane forces (rent increases, inspectors, chains replacing independents), not obvious monsters

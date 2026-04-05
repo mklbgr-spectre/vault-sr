@@ -56,18 +56,6 @@ Translated from Shadowrun 5 characters for the system demo. These are not campai
 
 ---
 
-## Relay — Eshu
-
-**Source character:** Relay (GM-run character in Shadowrun)
-**Kith:** Eshu
-**Role in one-shot:** GM-controlled NPC / patron figure
-
-**Concept:** Traveling outsider who arrives with broader knowledge and spiritual connection. Egyptian mythic cultural roots. Fate-touched wanderer and natural storyteller — the Eshu concept maps directly onto the spirit conduit / guide role Relay played in Shadowrun.
-
-**Function in the one-shot:** Information source, connector, the figure who knows more than they're saying. Not a combat asset.
-
----
-
 ## [Kinain] — TBD
 
 **Role:** Viewpoint character / exposition anchor. Mortal-adjacent, genuine mundane social skills, experiences the fae world with fresh eyes.

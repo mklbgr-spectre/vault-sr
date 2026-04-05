@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Changeling: The Dreaming — Pregen</title>
+<style>
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+@page {
+  size: A4;
+  margin: 12mm;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 8.5pt;
+  color: #111;
+  background: white;
+  width: 186mm;
+  margin: 0 auto;
+  padding: 5mm;
+}
+
+/* ── HEADER ─────────────────────────────────── */
+
+.sheet-header {
+  border-bottom: 2px solid #111;
+  padding-bottom: 3mm;
+  margin-bottom: 3mm;
+}
+
+.sheet-title {
+  font-size: 6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 0.8mm;
+}
+
+.char-name {
+  font-size: 19pt;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 2mm;
+  font-style: italic;
+}
+
+.char-meta {
+  display: flex;
+  gap: 4mm;
+  flex-wrap: wrap;
+}
+
+.meta-field {
+  display: flex;
+  align-items: baseline;
+  gap: 1.5mm;
+}
+
+.meta-label {
+  font-size: 6pt;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #666;
+  white-space: nowrap;
+}
+
+.meta-value {
+  font-size: 8pt;
+  border-bottom: 1px solid #111;
+  min-width: 20mm;
+  padding-bottom: 0.3mm;
+}
+
+/* ── SECTION LABELS ──────────────────────────── */
+
+.section-title {
+  font-size: 6pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  border-bottom: 1px solid #111;
+  padding-bottom: 0.4mm;
+  margin-bottom: 1.5mm;
+  margin-top: 2.5mm;
+  color: #111;
+}
+
+.section-title:first-child {
+  margin-top: 0;
+}
+
+.col-title {
+  font-size: 6pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #444;
+  border-bottom: 0.5pt solid #999;
+  padding-bottom: 0.4mm;
+  margin-bottom: 1.2mm;
+}
+
+/* ── DOTS ────────────────────────────────────── */
+
+.dots {
+  font-size: 8pt;
+  letter-spacing: 0.5pt;
+  white-space: nowrap;
+  font-style: normal;
+}
+
+/* ── MAIN 3-COLUMN BODY ──────────────────────── */
+
+.sheet-main {
+  display: grid;
+  grid-template-columns: 50mm 1fr 43mm;
+  gap: 4mm;
+  margin-bottom: 3mm;
+}
+
+/* ── ATTRIBUTES ──────────────────────────────── */
+
+.attr-group {
+  margin-bottom: 1.5mm;
+}
+
+.attr-group-name {
+  font-size: 6pt;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #666;
+  margin-bottom: 0.6mm;
+}
+
+.attr-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5mm;
+  font-size: 8pt;
+}
+
+/* ── ABILITIES ───────────────────────────────── */
+
+.abilities-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2mm;
+}
+
+.ability-col { }
+
+.ability-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.4mm;
+  padding-bottom: 0.3mm;
+  border-bottom: 0.3pt dotted #bbb;
+  font-size: 7pt;
+}
+
+/* ── BACKGROUNDS ─────────────────────────────── */
+
+.bg-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5mm;
+  padding-bottom: 0.3mm;
+  border-bottom: 0.3pt dotted #bbb;
+  font-size: 8pt;
+}
+
+/* ── ARTS & REALMS ───────────────────────────── */
+
+.art-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5mm;
+  padding-bottom: 0.3mm;
+  border-bottom: 0.3pt dotted #bbb;
+  font-size: 8pt;
+}
+
+/* ── SECONDARY 2-COLUMN ROW ──────────────────── */
+
+.sheet-secondary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4mm;
+  margin-bottom: 3mm;
+}
+
+/* ── TEXT BOXES ──────────────────────────────── */
+
+.text-box {
+  border: 0.5pt solid #999;
+  border-radius: 1mm;
+  padding: 2mm 2.5mm;
+  font-size: 7.5pt;
+  line-height: 1.45;
+  margin-top: 1mm;
+}
+
+.text-box.tall   { min-height: 26mm; }
+.text-box.medium { min-height: 18mm; }
+.text-box.short  { min-height: 11mm; }
+
+.text-box strong { font-size: 7.5pt; }
+
+/* ── FOOTER ──────────────────────────────────── */
+
+.sheet-footer {
+  border-top: 1.5px solid #111;
+  padding-top: 2.5mm;
+}
+
+.pools-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3mm;
+  margin-bottom: 2mm;
+}
+
+.pool-label {
+  font-size: 6pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 1mm;
+}
+
+.pool-sublabel {
+  font-weight: normal;
+  font-size: 5.5pt;
+  text-transform: none;
+  letter-spacing: 0;
+  color: #666;
+}
+
+.pool-track {
+  display: flex;
+  gap: 1.2mm;
+  flex-wrap: wrap;
+}
+
+.bubble {
+  width: 3.8mm;
+  height: 3.8mm;
+  border: 0.8pt solid #111;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.bubble.filled { background: #111; }
+
+/* ── HEALTH ──────────────────────────────────── */
+
+.health-row {
+  display: flex;
+  gap: 3mm;
+  align-items: flex-end;
+  margin-top: 0.5mm;
+}
+
+.health-level {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6mm;
+}
+
+.health-name {
+  font-size: 6pt;
+  text-align: center;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.health-penalty {
+  font-size: 5.5pt;
+  color: #555;
+  text-align: center;
+  min-height: 2mm;
+}
+
+.health-box {
+  width: 3.8mm;
+  height: 3.8mm;
+  border: 0.8pt solid #111;
+  display: inline-block;
+}
+
+/* ── PRINT ───────────────────────────────────── */
+
+@media print {
+  body { padding: 0; }
+  .sheet { page-break-after: always; }
+  .sheet:last-child { page-break-after: avoid; }
+}
+
+</style>
+</head>
+<body>
+
+<div class="sheet">
+
+  <!-- ══ HEADER ══ -->
+  <div class="sheet-header">
+    <div class="sheet-title">Changeling: The Dreaming — One-Shot Pregen</div>
+    <div class="char-name">Character Name</div>
+    <div class="char-meta">
+      <div class="meta-field">
+        <span class="meta-label">Kith</span>
+        <span class="meta-value">Fox Pooka</span>
+      </div>
+      <div class="meta-field">
+        <span class="meta-label">Seeming</span>
+        <span class="meta-value">Wilder</span>
+      </div>
+      <div class="meta-field">
+        <span class="meta-label">Court</span>
+        <span class="meta-value">Seelie</span>
+      </div>
+      <div class="meta-field">
+        <span class="meta-label">Legacy</span>
+        <span class="meta-value">Trickster / Riddler</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ MAIN 3-COLUMN BODY ══ -->
+  <div class="sheet-main">
+
+    <!-- ── COL 1: ATTRIBUTES + BACKGROUNDS ── -->
+    <div>
+      <div class="section-title">Attributes</div>
+
+      <div class="attr-group">
+        <div class="attr-group-name">Physical</div>
+        <div class="attr-row"><span>Strength</span><span class="dots">●●○○○</span></div>
+        <div class="attr-row"><span>Dexterity</span><span class="dots">●●●●○</span></div>
+        <div class="attr-row"><span>Stamina</span><span class="dots">●●●○○</span></div>
+      </div>
+
+      <div class="attr-group">
+        <div class="attr-group-name">Social</div>
+        <div class="attr-row"><span>Charisma</span><span class="dots">●●●●○</span></div>
+        <div class="attr-row"><span>Manipulation</span><span class="dots">●●●○○</span></div>
+        <div class="attr-row"><span>Appearance</span><span class="dots">●●●○○</span></div>
+      </div>
+
+      <div class="attr-group">
+        <div class="attr-group-name">Mental</div>
+        <div class="attr-row"><span>Perception</span><span class="dots">●●●○○</span></div>
+        <div class="attr-row"><span>Intelligence</span><span class="dots">●●○○○</span></div>
+        <div class="attr-row"><span>Wits</span><span class="dots">●●●●○</span></div>
+      </div>
+
+      <div class="section-title">Backgrounds</div>
+      <div class="bg-row"><span>Chimera</span><span class="dots">●●○○○</span></div>
+      <div class="bg-row"><span>Dreamers</span><span class="dots">●●●○○</span></div>
+      <div class="bg-row"><span>Remembrance</span><span class="dots">●○○○○</span></div>
+      <div class="bg-row"><span>&nbsp;</span><span class="dots">○○○○○</span></div>
+      <div class="bg-row"><span>&nbsp;</span><span class="dots">○○○○○</span></div>
+    </div>
+
+    <!-- ── COL 2: ABILITIES ── -->
+    <div>
+      <div class="section-title">Abilities</div>
+      <div class="abilities-cols">
+
+        <!-- TALENTS -->
+        <div class="ability-col">
+          <div class="col-title">Talents</div>
+          <div class="ability-row"><span>Alertness</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Athletics</span><span class="dots">●●○○○</span></div>
+          <div class="ability-row"><span>Brawl</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Dodge</span><span class="dots">●●●○○</span></div>
+          <div class="ability-row"><span>Empathy</span><span class="dots">●●●○○</span></div>
+          <div class="ability-row"><span>Expression</span><span class="dots">●●●○○</span></div>
+          <div class="ability-row"><span>Intimidation</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Kenning</span><span class="dots">●●○○○</span></div>
+          <div class="ability-row"><span>Leadership</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Streetwise</span><span class="dots">●●○○○</span></div>
+          <div class="ability-row"><span>Subterfuge</span><span class="dots">●●●●○</span></div>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="ability-col">
+          <div class="col-title">Skills</div>
+          <div class="ability-row"><span>Animal Ken</span><span class="dots">●●○○○</span></div>
+          <div class="ability-row"><span>Crafts</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Drive</span><span class="dots">●○○○○</span></div>
+          <div class="ability-row"><span>Etiquette</span><span class="dots">●●○○○</span></div>
+          <div class="ability-row"><span>Firearms</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Melee</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Performance</span><span class="dots">●●●●○</span></div>
+          <div class="ability-row"><span>Stealth</span><span class="dots">●●●○○</span></div>
+          <div class="ability-row"><span>Survival</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Technology</span><span class="dots">○○○○○</span></div>
+        </div>
+
+        <!-- KNOWLEDGES -->
+        <div class="ability-col">
+          <div class="col-title">Knowledges</div>
+          <div class="ability-row"><span>Academics</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Computer</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Enigmas</span><span class="dots">●●○○○</span></div>
+          <div class="ability-row"><span>Faerie Lore</span><span class="dots">●●○○○</span></div>
+          <div class="ability-row"><span>Gremayre</span><span class="dots">●○○○○</span></div>
+          <div class="ability-row"><span>Investigation</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Law</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Medicine</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Occult</span><span class="dots">●○○○○</span></div>
+          <div class="ability-row"><span>Politics</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Science</span><span class="dots">○○○○○</span></div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── COL 3: ARTS + REALMS ── -->
+    <div>
+      <div class="section-title">Arts</div>
+      <div class="art-row"><span>Chicanery</span><span class="dots">●●●○○</span></div>
+      <div class="art-row"><span>Primal</span><span class="dots">●●○○○</span></div>
+      <div class="art-row"><span>&nbsp;</span><span class="dots">○○○○○</span></div>
+
+      <div class="section-title">Realms</div>
+      <div class="art-row"><span>Actor</span><span class="dots">●●●○○</span></div>
+      <div class="art-row"><span>Fae</span><span class="dots">●●○○○</span></div>
+      <div class="art-row"><span>Nature</span><span class="dots">●●○○○</span></div>
+      <div class="art-row"><span>Prop</span><span class="dots">○○○○○</span></div>
+      <div class="art-row"><span>Scene</span><span class="dots">○○○○○</span></div>
+    </div>
+
+  </div>
+
+  <!-- ══ SECONDARY 2-COLUMN ROW ══ -->
+  <div class="sheet-secondary">
+
+    <!-- ── LEFT: CANTRIPS ── -->
+    <div>
+      <div class="section-title">Cantrips</div>
+      <div class="text-box tall">
+        <strong>Veiled Eyes</strong> (Chicanery 1)<br>
+        Target overlooks something present. Diff 6, resisted by Willpower.<br><br>
+        <strong>Fugue</strong> (Chicanery 2)<br>
+        Target forgets the last few minutes. Diff 7, resisted by Willpower.<br><br>
+        <strong>Willow-Wisp</strong> (Primal 1)<br>
+        Summon a floating light you can direct. Diff 4.<br><br>
+        <strong>Eldritch Prime</strong> (Primal 2)<br>
+        Detect the presence of Glamour or chimerical things. Diff 5.
+      </div>
+    </div>
+
+    <!-- ── RIGHT: KITH + MERITS ── -->
+    <div>
+      <div class="section-title">Kith: Fox Pooka</div>
+      <div class="text-box medium">
+        <strong>Boon — Animal Form:</strong> Shift into fox form (full or partial). Fox senses and movement apply in animal form.<br><br>
+        <strong>Frailty — Compulsive Lying:</strong> Cannot speak a direct, literal truth. Must always shade, omit, or mislead — even when it hurts.
+      </div>
+
+      <div class="section-title">Merits &amp; Flaws</div>
+      <div class="text-box short">
+        <!-- add merits / flaws here -->
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ══ FOOTER ══ -->
+  <div class="sheet-footer">
+
+    <div class="pools-row">
+
+      <div>
+        <div class="pool-label">Glamour <span class="pool-sublabel">current / max ○○○○○○○○○○</span></div>
+        <div class="pool-track">
+          <span class="bubble filled"></span><span class="bubble filled"></span>
+          <span class="bubble filled"></span><span class="bubble filled"></span>
+          <span class="bubble filled"></span><span class="bubble filled"></span>
+          <span class="bubble"></span><span class="bubble"></span>
+          <span class="bubble"></span><span class="bubble"></span>
+        </div>
+      </div>
+
+      <div>
+        <div class="pool-label">Willpower <span class="pool-sublabel">current / max ○○○○○○○○○○</span></div>
+        <div class="pool-track">
+          <span class="bubble filled"></span><span class="bubble filled"></span>
+          <span class="bubble filled"></span><span class="bubble filled"></span>
+          <span class="bubble filled"></span><span class="bubble"></span>
+          <span class="bubble"></span><span class="bubble"></span>
+          <span class="bubble"></span><span class="bubble"></span>
+        </div>
+      </div>
+
+      <div>
+        <div class="pool-label">Banality <span class="pool-sublabel">permanent</span></div>
+        <div class="pool-track">
+          <span class="bubble filled"></span><span class="bubble filled"></span>
+          <span class="bubble"></span><span class="bubble"></span>
+          <span class="bubble"></span><span class="bubble"></span>
+          <span class="bubble"></span><span class="bubble"></span>
+          <span class="bubble"></span><span class="bubble"></span>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="margin-bottom: 2mm;">
+      <div class="pool-label">Health</div>
+      <div class="health-row">
+        <div class="health-level">
+          <span class="health-name">Bruised</span>
+          <span class="health-penalty">&nbsp;</span>
+          <span class="health-box"></span>
+        </div>
+        <div class="health-level">
+          <span class="health-name">Hurt</span>
+          <span class="health-penalty">−1</span>
+          <span class="health-box"></span>
+        </div>
+        <div class="health-level">
+          <span class="health-name">Injured</span>
+          <span class="health-penalty">−1</span>
+          <span class="health-box"></span>
+        </div>
+        <div class="health-level">
+          <span class="health-name">Wounded</span>
+          <span class="health-penalty">−2</span>
+          <span class="health-box"></span>
+        </div>
+        <div class="health-level">
+          <span class="health-name">Mauled</span>
+          <span class="health-penalty">−2</span>
+          <span class="health-box"></span>
+        </div>
+        <div class="health-level">
+          <span class="health-name">Crippled</span>
+          <span class="health-penalty">−5</span>
+          <span class="health-box"></span>
+        </div>
+        <div class="health-level">
+          <span class="health-name">Incapacit.</span>
+          <span class="health-penalty">&nbsp;</span>
+          <span class="health-box"></span>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="section-title">Play Notes</div>
+      <div class="text-box short">
+        Wants to be trusted but constitutionally cannot be honest. Protective of the group — shows it through deflection and misdirection rather than warmth. Plays the clown; takes the work seriously.
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>

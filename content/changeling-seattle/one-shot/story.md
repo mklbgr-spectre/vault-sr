@@ -2,70 +2,100 @@
 
 **Purpose:** Standalone system demo. Introduces Changeling mechanics and tone to a Shadowrun group. No continuity with the campaign that follows.
 
-**Adventure model:** Banal threat — something is draining Glamour from a place, community, or Dreamer. Closest to a traditional mission structure; most accessible for Shadowrun veterans.
+**Adventure model:** Banal threat — a developer is applying sustained pressure on a community space. The threat is mundane, grinding, and institutional. Most accessible for Shadowrun veterans.
 
 ---
 
 ## Premise
 
-Inspired loosely by *Batteries Not Included* — a storied but aging community space under outside pressure, quietly kept alive by a creature from the Dreaming that nobody knows about yet.
+Inspired loosely by *Batteries Not Included* — a storied but aging community space under outside pressure, quietly kept alive by a creature from the Dreaming that only one person knows about.
 
-**The space:** An old bowling alley. Storied, worn, a known gathering point for regional Kithain. Full of interesting backspaces — pin machinery, ball returns, maintenance crawlways, decades of accumulated storage — ideal for a creature to inhabit unseen.
+**The space:** An old bowling alley. Storied, worn, a known gathering point for regional Kithain. Full of interesting backspaces — pin machinery, ball returns, maintenance crawlways, decades of accumulated storage — home to a Glome (Krofted inanimae) anchored to the building's original foundations and machinery.
 
-**The GM character:** The Kinain owner/bartender. She knows what she is and ran this place deliberately as a space for Kithain. But she's tired, the maintenance is overwhelming, and she's considering selling to a developer's offer. She doesn't fully understand how the place has held together as long as it has — the creature's work, which she hasn't connected.
+**The creature:** A Krofted Glome. Bonded to the bowling alley's stone foundations and original pin-setting machinery. Has been quietly maintaining the building for decades — the reason it hasn't fallen apart. Patient, hidden, not aggressive. Its Anchor *is* the building; if the building is destroyed, so is it.
 
-**The players:** Renters, regulars, people who belong to this space. They have a reason to care before anything supernatural happens.
+**Marla:** She knows about the Glome. She has known for some time and has kept the secret — even from the kith regulars. She does not want to sell. She is being harassed and pressured by a developer who wants the property, using every mundane lever available: lawyers, inspectors, noise complaints, manufactured code violations, veiled personal threats. She is running out of room.
+
+**The players:** Regulars. People who belong to this space. They don't know about the Glome. They don't know the full scope of what Marla is dealing with. They're about to find out both.
 
 ---
 
-## Scene Structure
+## Act Structure
 
-### 1. The Hook — She's Considering Selling
+### Act 1 — The Grind
 
-The GM character tells the party about the offer and her situation. The maintenance alone is defeating her. She's not asking them to fix it — she's just being honest with people she trusts. This is the Johnson meeting equivalent.
+The players arrive at the alley on what should be a normal evening. Something is off — Marla is distracted, tense. It comes out: another letter, another inspector visit scheduled, another complaint filed. She shows them the paperwork. It's all mundane, all legal, all designed to wear her down until she signs.
 
-Players are free to respond however they like — help with repairs, raise funds, rally the community, whatever their instincts are. Different kith will approach it differently. Let them run with it.
+This act is Banality doing what it does — grinding, institutional, boring. Let it feel that way. The developer isn't a villain in a cape; they're a process. The players experience the harassment firsthand: maybe an inspector shows up during the session, maybe a lawyer's letter is the table prop, maybe a regular mentions the parking complaints that started appearing out of nowhere.
 
-*The tease:* She's genuinely unsure how the place has stayed standing this long. Something has been helping. She just doesn't know what.
+The players have a reason to care before anything supernatural happens. Let them establish that. Different kith will read the situation differently and respond differently — that's the point.
 
-### 2. The Creature — Discovered Before the Crisis
+*Act 1 ends with the players deciding to do something about it.*
 
-*Details TBD — single creature or multiple small ones.* Lives in the backspaces of the bowling alley. Has been quietly maintaining the building for an unknown period of time. Cautious, hidden, not aggressive.
+---
 
-Players should have the opportunity to discover or sense it during the investigation/help phase, before the crisis forces it into the open.
+### Act 2 — The Turn (and the Pivot)
 
-### 3. The Hooligan Attack — In Medias Res Entry
+The players push back — through whatever angle their instincts take them. Legal research, community rallying, investigating the developer, finding dirt, making noise. There's a real sense of traction. Things seem to be working. The harassment quiets. The inspector finds nothing. Marla breathes for the first time in weeks.
 
-**The setup:** The evening winds down. The GM character closes up. The party leaves together — but one of them stayed behind a moment (buying cigarettes at a machine outside, taking a piss in the bushes, whatever fits the character). They're just outside when they hear glass breaking back at the alley.
+**Mid-Act 2 — The Glome:**
+During the investigation or repair phase, someone finds something in the backspaces. High Kenning, or simply snooping in the right crawlway at the right moment. The Glome has been under strain — the building under threat, the pressure — and it's harder to stay hidden when you're scared.
 
-**The entry:** They go back in through the break-in point. Before they can take stock, they hear the hooligans already shouting — *"what is that thing"* — confused, scared. They walk into a fight already in progress: four burly hooligans surrounding the creature (or creatures). Paid muscle from the buyer, sent to damage or destroy the place.
+When the party confronts Marla, she admits it. She's been protecting it alone. She didn't tell them because she didn't know if she could trust the whole group with something this fragile. The Glome is cautious but not hostile — it knows the party through Marla. Whether it warms to them depends on how that moment is handled.
+
+This is the emotional high of Act 2: the players understand what they're actually protecting now, and it looks like they might be winning.
+
+**End of Act 2 — The Pivot:**
+The evening winds down. Marla closes up. The party leaves together — but one stayed behind a moment (cigarettes, checking something, whatever fits the character). They're just outside when they hear glass breaking.
+
+*The developer stopped playing by the mundane rules.*
+
+---
+
+### Act 3 — Heroics and Resolution
+
+**The entry:** Back in through the break-in point. Before they can take stock, they hear the hired crew already shouting — *"what is that thing"* — confused, scared. They walk into a fight already in progress: paid muscle surrounding the Glome.
+
+These aren't random hooligans. They were sent to cause enough damage to trigger a code violation or force an insurance issue — a mundane hammer for a mundane problem. They didn't expect the building to fight back.
 
 The party's choice is immediate: act.
 
-**The beat:** Party and creature protect each other. The creature fights in its own way — not a brawler, but it knows this building. The hooligans are the combat encounter; the creature is the emotional reveal.
+**The fight:** Party and Glome protect each other. The Glome fights in its own way — it knows every inch of this building, and the building responds. The hired crew are the combat encounter; the Glome is the emotional reveal for anyone who hadn't found it in Act 2.
 
-### 4. Resolution — The Next Morning
+**The exit:** As the fight winds down, Marla arrives back at the scene. She takes in what happened, thanks the party — there and then, no ceremony, just genuine. Then she tells them she already called the cops. They need to go. Come back tomorrow.
 
-They don't watch it happen. They come back the next day and the damage is gone. The place is restored — within reason, nothing miraculous, but everything that was broken the night before is whole. The creature's answer.
+This clears the scene naturally, gives Marla a moment of warmth before the night closes, and leaves the Glome alone to do what it does. Nobody watches the repair happen. That's the point.
 
-What the owner does with that is her arc to play, depending on how the session and her relationships with the party went.
+**The morning after:**
+They come back the next day and the damage is gone — everything broken the night before is whole. The Glome's answer. Not a miracle. Just patient, quiet work through the night.
+
+The developer hasn't gone away. But the party knows what's at stake now. And so does Marla — she's not carrying it alone anymore.
+
+---
+
+## The Developer
+
+Not a monster. A mundane person running a mundane operation — acquire, demolish, build. They don't know about the Glome. They don't know about Kithain. They just know this property won't budge and they've decided to make it hurt until it does.
+
+The hired crew for the attack are plausible deniability muscle — not tied to the developer on paper. The legal and inspection campaign is the real weapon.
 
 ---
 
 ## Mechanical Showcases
 
 Things to make sure the session demonstrates:
-- Glamour harvesting / Dreamer interaction
+- Kenning in use — sensing the Glome, feeling the building's Glamour
 - At least one cantrip from each pregen (player choice)
-- The cost of careless cantrip use (Banality accumulation, or Mists risk)
-- Kith birthrights in action — especially Pooka lying compulsion and Piskie belonging
-- The Kinain's perspective as a bridge between worlds
+- The cost of careless cantrip use (Banality accumulation, Mists risk)
+- Kith birthrights in action — especially Pooka lying compulsion and Sidhe Sovereign
+- The Kinain's perspective as a bridge — Marla's relationship with the Glome as a model
+- Banality as mundane institutional pressure, not a monster
 
 ---
 
 ## Props / Handouts
 
-- [ ] Physical letter or notice as a table prop for the opening hook (precedent: multi-agency inspection letter)
+- [ ] Legal letter / inspection notice as table prop for the opening hook
 - [ ] Quick reference card: Glamour / Banality basics for new players
 - [ ] Kith summary cards (one per pregen)
 
