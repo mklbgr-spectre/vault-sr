@@ -1,0 +1,11 @@
+Brilliant blue waters, sparkling sands, lush palms, and an easy way of life characterize the dreams of the fae in the lands of the Caribbean Sea. Although [[Concordia]] has tried repeatedly to claim these lands, they manage to elude rule by a continent-based government. Only the larger islands of Cuba, Puerto Rico, and Hispaniola (Haiti and the Dominican Republic) have governments of any recognizable nature. Many of the smaller islands have set themselves up as pirate republics, with no rulers except for the captains of chimeric (and sometimes real) pirate ships. These pirate lands enjoy raiding adjoining islands, tourist vacation centers, and the shores of [[Concordia]], particularly near the [[Kingdom of White Sands]].
+
+## Republic of Abundance
+(Cuba)
+
+Until recently, most [[Sidhe]] who lived in Cuba left after the rise of Fidel Castro's strongly proletarian government. The fate of commoner changelings changed only slightly, as they incorporated new cultural influences that reflected their socialist society. Since the relaxation of tensions between the mortal governments of the U.S. and Cuba have eased travel restrictions and bode for a more harmonious coexistence, some ex-patriot changelings have returned, while others have decided to move to the still beautiful island. From her freehold of Las Palmas (The Palms) in a ruined mansion outside Havana, Isabela Dulce, a [[Seelie]] [[Eshu]], has claimed the position as Primera (meaning "first"), and has attempted to create an atmosphere that will draw other changelings to a land that needs new dreams.
+
+## The Island of Riches
+(Puerto Rico)
+
+Originally a colony of [[Concordia]] under the rule of Duke Danon ap [[Liam]], the duke came to sympathize with many of his commoner subjects, who chafed under even the benign rule of the High King. He eventually declared his fief to be an independent entity, with no allegiance to [[Concordia]]. Though the nobles of [[Concordia]] may consider him an oathbreaker, he has no intentions of ever returning to the continent and is content to rule his subjects with an ear to their needs. [[Concordia]] has not acknowledged him one way or the other, but he enjoys the support of local fae so long as he has the island's interests as his first priority.
