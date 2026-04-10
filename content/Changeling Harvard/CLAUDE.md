@@ -11,3 +11,9 @@ This Obsidian vault is the campaign notes for a running **Changeling: The Dreami
 - **Detailed and accurate notes are the top priority.** I will always ask for clarification rather than guess when something is unclear.
 - I am comfortable asking follow-up questions before writing or rewriting anything.
 - This includes asking the user to provide additional rules or lore from the core rulebook Changeling V20 when needed.
+
+## Quartz Publishing — Known Issue
+
+This vault is published via **Quartz** to GitHub Pages. Quartz's OG image plugin crashes the build if any markdown file contains **keycap emojis** (1️⃣, 2️⃣, 3️⃣, 🔟, etc.) — the combining enclosing keycap character (U+20E3) is not in its emoji font map.
+
+**Do not use keycap emojis anywhere in markdown files.** Use plain numbers (`1.`, `2.`, `3.`) instead.

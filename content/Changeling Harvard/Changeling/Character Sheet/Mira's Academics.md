@@ -1,48 +1,48 @@
-1️⃣ **Research Methodology:** 4
+1. **Research Methodology:** 4
 
 > Proficient in archival research, literature reviews, and comparative textual analysis; knows her way around university libraries and folklore archives.
 
-2️⃣ **Critical Writing / Academic Composition:** 4
+2. **Critical Writing / Academic Composition:** 4
 
 > Able to write formal papers, thesis chapters, and annotated bibliographies at a high standard.
 
-3️⃣ **Teaching / Pedagogy:** 3
+3. **Teaching / Pedagogy:** 3
 
 > As a TA, experienced in leading discussions, grading papers, explaining abstract concepts to undergraduates.
 
-4️⃣ **Folklore Analysis:** 4
+4. **Folklore Analysis:** 4
 
 > Can authoritatively analyze and interpret folkloric motifs, with particular focus on European traditions.
 
-5️⃣ **German Language / Textual Analysis:** 3
+5. **German Language / Textual Analysis:** 3
 
 > Reads and analyzes German primary texts comfortably but not necessarily at native fluency.
 
-6️⃣ **Oral History Interview Techniques:** 2
+6. **Oral History Interview Techniques:** 2
 
 > Has basic training in interviewing subjects for folklore or immigrant history research.
 
-7️⃣ **Public Speaking / Presenting:** 3
+7. **Public Speaking / Presenting:** 3
 
 > Confident leading classroom discussions and small seminars; less experienced in large lectures.
 
-8️⃣ **Cross-cultural Analysis:** 4
+8. **Cross-cultural Analysis:** 4
 
 > Sensitive to transatlantic cultural comparisons, assimilation narratives, and immigrant folklore.
 
-9️⃣ **Historiography:** 2
+9. **Historiography:** 2
 
 > Familiar with historiographic methods, but not a core expertise.
 
-🔟 **Anthropology Basics:** 1
+10. **Anthropology Basics:** 1
 
 > Introductory knowledge only — understands anthropological perspectives but hasn’t formally trained.
 
-1️⃣1️⃣ **Archival Management:** 2
+11. **Archival Management:** 2
 
 > Knows how to request, handle, and work with archived material, but not formally trained as an archivist.
 
-1️⃣2️⃣ **Student Advising:** 2
+12. **Student Advising:** 2
 
 > Has some experience informally mentoring and advising students (e.g., her Dreamer #1, Freya).
 

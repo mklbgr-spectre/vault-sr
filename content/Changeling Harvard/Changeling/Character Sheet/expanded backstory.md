@@ -21,13 +21,13 @@ The German boy thus became, in her mind, **both the one that got away and a symb
 
 ---
 
-🔹 **4️⃣ Bond with Dreamer #1:**
+🔹 **4. Bond with Dreamer #1:**
 
 > Before her Chrysalis, Mira became an informal mentor to a younger Harvard student — an ambitious freshman overwhelmed by campus life and already showing signs of burnout. Though Mira herself was struggling, she took time to offer patient guidance and small kindnesses, inspiring this student to regain confidence. After her return from Europe, this student remained quietly devoted, becoming a trusted Dreamer whose creative spirit Mira now tends with careful balance.
 
 ---
 
-🔹 **5️⃣ Decline in performance and Edevan’s covert intervention:**
+🔹 **5. Decline in performance and Edevan’s covert intervention:**
 
 > As Mira advanced in her Harvard studies, her academic performance began to deteriorate. Sleep problems, strange visions, and lapses in focus prompted concern from advisors and family, leading to consultations with doctors. When a physician recommended medication to “correct” these issues, Edevan recognized the approaching danger — the subtle onset of Banality threatening Mira’s slumbering fae soul. Unable to act openly, he maneuvered university channels to arrange an “exchange year” abroad, quietly ensuring her placement near fae allies in Germany. This drastic intervention bought Mira the time she needed for her Chrysalis to unfold properly.
 
@@ -59,7 +59,7 @@ At that moment, Mira’s clarity broke through her curiosity. She realized how h
 > One formative memory from Mira’s early college years was a museum field trip led by her favorite professor, a renowned expert in mythology whose lectures had always seemed alive with hidden truths. That day, however, the professor seemed tired, distracted — worn down by the demands of managing the restless students rather than illuminating mythic symbols. It was a quiet moment of realization for Mira: even those with deep knowledge of wonder could succumb to mundane frustrations and let the “magic” slip away. She wouldn’t have known to call it “Banality” then, but this insight marked an early glimpse of the dulling forces that would later define her fae worldview.
 
 
-### 🌸 1️⃣ **Prom Night that almost was**
+### 🌸 1. **Prom Night that almost was**
 
 Mira attended her high school prom — her dress carefully chosen, makeup painstakingly done, expectations swirling somewhere between excitement and quiet dread. Throughout high school she’d had admirers, but her warmth and nerdy curiosity always seemed to friendzone her in their eyes… except one classmate, a thoughtful but shy boy who _did_ ask her out formally.
 
@@ -75,7 +75,7 @@ Her date misread the situation and gently backed off. He remained kind, but the 
 
 ---
 
-### 🌱 2️⃣ **Early childhood moment: “The crayons incident”**
+### 🌱 2. **Early childhood moment: “The crayons incident”**
 
 At age 5, Mira’s parents discovered something uncanny during a mundane rainy afternoon. Mira sat quietly on the living room carpet, surrounded by a large box of crayons — but when they looked at her drawing, it wasn’t a typical child’s scribble.
 
