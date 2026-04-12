@@ -1,0 +1,13 @@
+For lucky changelings, life is largely filled with wonder, magic, and joy. However, the Dauntain try to destroy their magic, and the monstrous Thallain regularly attempt to spread destruction and suffering in their wake. To defeat these foes, or sometimes simply to regain their honor when one of their fellows has wronged them, the Kithain must fight.
+
+In Changeling: The Dreaming, combat is designed to be dramatic and exciting, while not downplaying the fact that the characters’ lives may be at stake. However, it’s also important to remember that combat, like all other aspects of a Changeling campaign, should be fun, which means that sometimes enforcing detailed rules and looking up tables needs to take a backseat to keeping the action moving and allowing characters to perform daring and heroic feats. Arguing over rules or spending 10 minutes flipping through this book in the middle of a combat is going to seriously detract from what might otherwise be an awesome action scene where the characters risk their lives for their allies or beliefs and show exactly how skilled and brave they are. The following rules are here to help everyone have fun, but always keep in mind that the fun is more important than the rules.
+
+Combat is divided into action turns, which are three seconds long and have four phases — Initiative, Attack, Defense, and Resolution. First, everyone involved rolls initiative to see who acts when. Then, everyone makes an attack to see whose attack hits and who gets hit. Next, anyone who wishes to makes a defense roll to try to avoid getting hit. Finally, everyone rolls soak and damage to see how badly everyone who was hit was hurt. While every combat scene is different, combat can be broken down into two major types:
+
+## Close Combat
+
+This covers both unarmed combat (Dexterity + Brawl) using fists, claws, or kicks, and combat involving weapons (Dexterity + Melee), which includes everything from members of the sidhe jousting on horseback for honor and glory, to a troll bashing one of the Autumn People over the head with a lead pipe. Characters must be within a yard/meter or at most two from each other to engage in any form of close combat.
+
+## Ranged Combat
+
+This form of combat requires ranged weapons, which includes elegantly made longbows, shotguns (both use Dexterity + Firearms), and thrown rocks (Dexterity + Athletics). Opponents typically must be able to see one another and be no further apart than their weapon’s maximum range to engage in ranged combat.

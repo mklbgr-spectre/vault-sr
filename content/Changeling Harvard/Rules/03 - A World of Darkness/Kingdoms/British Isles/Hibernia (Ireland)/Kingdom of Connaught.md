@@ -1,0 +1,3 @@
+## Kingdom of Connaught
+
+Made up of the western part of Ireland and noted for its wild beauty, the Kingdom of Connaught includes the counties of Galway, Mayo, Sligo, Roscommon, Leitrim, and the Aran Islands. The current ruler, King Fiachra ap [[Dougal]], walks a fine line between his house’s affinity for things technological and his desire to preserve as much of his kingdom’s unspoiled beauty as possible. He currently fosters Princess Bethany, of House [[Gwydion]].

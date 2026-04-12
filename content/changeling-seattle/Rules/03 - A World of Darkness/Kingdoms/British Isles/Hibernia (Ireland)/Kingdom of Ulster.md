@@ -1,0 +1,3 @@
+## Kingdom of Ulster
+
+Containing the six counties that make up Northern Ireland: Armagh, Derry, Antrim, Down, Tyrone, and Fermanagh, as well as the counties of Donegal, Monaghan, and Cavan, which were part of the original province, The Kingdom of Ulster occupies the northeastern corner of Ireland. Combining areas of dense industrialization as well as picturesque villages and dramatic landscapes, this area still bears signs of the Troubles that complicated life for both [[Changeling|changelings]] and mortals in the latter part of the 20th century. King Finn of House [[Fiona]], once thought to be the reincarnation of Irish hero Finn MacCool, changed from [[Seelie]] to [[Unseelie]] in response to the complex politics of Northern Ireland.

@@ -1,0 +1,1 @@
+Each of the Arts detailed below begins with a summary of the Art and a description of how the magic of the Art manifests when Unleashed. Each power corresponding to the five dots includes the name of the ability, a summary of the effects, the game system for the power, and the type (Chimerical, Wyrd, or either).

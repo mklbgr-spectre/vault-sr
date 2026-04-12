@@ -1,0 +1,3 @@
+## Sultanate of Hejaz
+
+The [[Changeling|changelings]] of Saudi Arabia combine desert chic with the romantic tales of the Bedouin tribes. The current ruler, the Sultana Talitha of House [[Leanhaun]], dwells in her [[Freeholds|freehold]], the Oasis of Lingering Dreams, located in the desert outside the capital of Riyadh. The [[Kithain]] of the region include most commoner kiths as well as a few noble houses. All behave with the greatest discretion when interacting with the mortal world.

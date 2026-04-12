@@ -1,0 +1,3 @@
+## The Hellenic Empire
+
+The [[Changeling|changelings]] of Greece have sought to recreate the glory of the ancient Greek Empire as well as the epic nature of Greek mythology. The [[Satyrs|satyr]] Demetrios Maragos, an actor and poet, claims the title of Emperor. His [[Freeholds|freehold]], the Garden of Olives, hosts [[Changeling|changelings]] from all over the world. He regularly directs and acts in performances of the classic Greek dramas.

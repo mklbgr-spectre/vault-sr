@@ -1,0 +1,1 @@
+King Biniam Desta (Fortunate Son of Joy), an [[Eshu]] wilder, rules the changelings who dwell in the Sudan and Ethiopia. From his freehold, the [[Eternal Story]], near the outskirts of Addis Ababa, he orchestrates a sizable collection of [[Eshu]], [[Satyrs]], and [[Pooka]]. They have minimal contact with the changelings of Europe and America but that may change.

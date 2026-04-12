@@ -1,0 +1,5 @@
+# Effects of Banality
+
+Once inside, Banality slowly snuffs out a changeling’s spark of Glamour. A young changeling who becomes permanently Undone can usually rebuild a life for herself, albeit without her full potential. A changeling Undone after living a full life is often mistaken for a senile geriatric in the throes of dementia.
+
+To affect anything with her Glamour, a changeling must overcome Banality. If a changeling attempts to cast a cantrip, enchant a mortal, or take any other action that involves Glamour, the target’s Banality affects the difficulty of the roll. Likewise, a changeling may use her own Banality to negate Glamour, countering cantrips targeting her or summoning the Mists to escape chimerical reality temporarily. This is called “Invoking the Autumn,” and is described on p. 271.

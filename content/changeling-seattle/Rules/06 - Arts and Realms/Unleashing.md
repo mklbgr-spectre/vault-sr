@@ -1,0 +1,17 @@
+
+Changelings perform [[Cantrips]] to focus Glamour through their [[Arts]] in specific, deliberate ways, but every Kithain possesses another, more dangerous method to do magic. Learning an Art unlocks a new door into the Dreaming, and a changeling desperate enough can kick that door open.
+Because the Unleashed Glamour reaches through the Dreaming by way of the changeling’s kith, an Unleashed Art always reflects the changeling’s [[Nature]]. A redcap Unleashing [[Wayfare]] yanks the target violently through the air or sends him hurtling through a nightmare world of blood and pain before emerging blocks away. An eshu Unleashing [[Contract]], on the other hand, surrounds the target with the noises and smells of a busy marketplace as she is forced to accept a future favor from the changeling in return for handing over an item the character seeks.
+The player chooses an Art to Unleash and states her character’s intent in a short, simple statement (“hurt that man,” “save my friend,” “restore the grove”). She spends two points of Glamour and adds one to her character’s Nightmare rating.
+The player is not constrained by the character’s Realms. Unleashed Glamour can affect anything, regardless of the caster’s knowledge of Realms.
+The player rolls a number of dice equal to the character’s
+Glamour rating plus a number of dice equal to her Nightmare rating (difficulty 7). This is an exception to the usual rule about other Traits being added to Tempers (p. 244). If the roll succeeds, the player must compare the number of successes to the rating of the Unleashed Art (see below).
+
+**Unleashing Results**
+If the roll is a botch, the Dreaming floods through the character completely unchecked until Banality violently responds to the breach of the Mists. The character gains an Imbalance (but does not reduce her Nightmare dice pool as a result) and the Unleashed Art causes havoc around her for one turn. At the beginning of the next turn, Banality responds and cuts the character off from the Dreaming. The character suffers a
+Banality trigger, and she cannot spend Glamour or use [[Arts]] for the remainder of the [[Arts and Realms/Realms/Scene]].
+
+If the roll fails, the character is unable to Unleash. This triggers Banality, and the character cannot use the Unleashed
+Art for the remainder of the [[Arts and Realms/Realms/Scene]].
+If the roll succeeds, but garners a number of successes equal to or fewer than the character’s Art rating, the changeling successfully invokes and controls the Dreaming. The character automatically invokes the Wyrd for a number of turns equal to her Glamour (the player can spend a point of Willpower to make it last for the rest of the [[Arts and Realms/Realms/Scene]]), her [[Fae]] mien becomes visible, and the player narrates the effect of the Unleashed Art.
+If the player rolls more successes than the Art rating, though, the character loses control. The character’s intent is fulfilled, but in a twisted or unintended way that adds complications or puts everyone nearby at risk. The character gains one Nightmare, and the Storyteller narrates the effect of the
+Unleashing and should incorporate a complication or conflict into the result. The character automatically invokes the Wyrd for the remainder of the [[Arts and Realms/Realms/Scene]].

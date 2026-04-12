@@ -1,0 +1,5 @@
+# Banality
+
+Banality is disengagement, existence by rote with no aspirations and nothing to lose. It saturates the world, suffocating everyone. It can be seen in the minimum wage worker holding down three jobs, living off food stamps, and still unable to make ends meet. He is too busy just surviving to dream. Banality also infects the corporate executive working for less than a year, fired for incompetence, and awarded a golden parachute in the tens of millions. She has no desire to dream and take risks, so she wanders aimlessly through life.
+
+The Banality Trait describes the extent to which Banality has tainted a character’s outlook on life and ability to feel passion or aspire to something beyond his day-to-day routine. Like Willpower and Glamour, Banality has both a permanent rating and a temporary pool. Banality’s temporary pool is not limited by the permanent rating.

@@ -1,0 +1,3 @@
+## The Isle of Snowflakes
+
+Icelandic [[Changeling|changelings]] enjoy a representative government, with a “figurehead” monarch who has very specific social and ceremonial duties, and The [[Parliament of Dreams|Parliament of Snow]], which contains both commoners and nobles. The ruling monarch is Queen Freydis Gefndottir of House [[Gwydion]]. The Speaker of Snow is the [[Boggans|boggan]] Henning Henningson. Both volcanically and geologically active, Iceland has a natural [[Glamour]] that encourages a creative and active lifestyle. Several horse [[Pooka|pookas]] come there to roam with the shaggy and sturdy Icelandic horses.

@@ -1,0 +1,3 @@
+## The Kingdom of Dalarna
+
+Comprising the countries of Norway and Sweden, the Kingdom of Dalarna boasts majestic scenery, from Norway’s dramatic fjords and crystal clear lakes to the towering forests and elegant mountains of Sweden. Currently, King Nils Molander of House [[Aesin]] rules from his ice castle [[Freeholds|freehold]] just outside Lillehammer in Norway. Here, as well as in The Isle of Snowflakes and the Kingdom of Jutland, [[Seelie]] fae refer to themselves as lios alfar (faeries of light), while [[Unseelie]] fae call themselves svart alfar (faeries of darkness).

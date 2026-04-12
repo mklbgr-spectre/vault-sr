@@ -1,0 +1,3 @@
+## Kingdom of Leinster
+
+The Kingdom of Leinster includes the eastern counties of Louth, Longford, Meath, West Meath, Dublin, Offaly, Kildare, Laois, Wicklow, Carlow, Kilkenny, and Wexford. Known as the cradle of Irish civilization, Leinster boasts varied vistas of pastures, lakes, bogs, rivers, modern cities, and timeless villages. King Bran ap [[Gwydion]], who led the [[Sidhe]] in their conquest of [[Hibernia]], rules his kingdom fairly, with concern for commoners as well as nobles. Sir Odhran ap [[Liam]], a veteran of the war to take [[Concordia]] who then moved to Ireland, serves as King Bran’s archivist, indulging his love for history in a valued court position.
