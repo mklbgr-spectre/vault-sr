@@ -79,3 +79,19 @@
 **Unleashing** — A dangerous, but powerful, method of performing magic, based on an Art.
 
 **Voile** — Clothing and personal items made of chimera; most changelings form voile during their Chrysalis.
+
+---
+
+## The Escheat — Quick Reference
+
+**The Right of Demesne** — A noble is law within his domain. Obey those above you, expect obedience from those below. Commoners aren't directly bound, but it applies to anyone dealing with nobility.
+
+**The Right to Dream** — Don't interfere with mortal creativity. Inspire freely; directly manipulating or Ravaging a Dreamer is forbidden and harshly punished.
+
+**The Right of Ignorance** — Never expose the fae to mortals. Banality follows exposure. Enchanting a mortal temporarily is fine; leaving them with the knowledge is not.
+
+**The Right of Rescue** — Any Kithain held by agents of Banality must be rescued. Seelie and Unseelie set differences aside for this one. No one gets left behind.
+
+**The Right of Safe Haven** — Freeholds are sanctuary. Anyone seeking refuge must be admitted; no real-world violence inside. Commoner freeholds tend to honor this more reliably than noble ones.
+
+**The Right of Life** — No Kithain kills another Kithain. The Dreaming enforces this directly with Banality. Duels use chimerical weapons; anything lethal requires royal sanction.
