@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Fariel — Changeling Pregen</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+@page { size: A4; margin: 12mm; }
+body { font-family: Georgia, 'Times New Roman', serif; font-size: 8.5pt; color: #111; background: white; width: 186mm; margin: 0 auto; padding: 5mm; }
+.sheet-header { border-bottom: 2px solid #111; padding-bottom: 3mm; margin-bottom: 3mm; }
+.sheet-title { font-size: 6pt; letter-spacing: 0.18em; text-transform: uppercase; color: #666; margin-bottom: 0.8mm; }
+.char-name { font-size: 19pt; font-weight: bold; line-height: 1; margin-bottom: 2mm; font-style: italic; }
+.char-meta { display: flex; gap: 4mm; flex-wrap: wrap; }
+.meta-field { display: flex; align-items: baseline; gap: 1.5mm; }
+.meta-label { font-size: 6pt; text-transform: uppercase; letter-spacing: 0.12em; color: #666; white-space: nowrap; }
+.meta-value { font-size: 8pt; border-bottom: 1px solid #111; min-width: 20mm; padding-bottom: 0.3mm; }
+.section-title { font-size: 6pt; font-weight: bold; text-transform: uppercase; letter-spacing: 0.16em; border-bottom: 1px solid #111; padding-bottom: 0.4mm; margin-bottom: 1.5mm; margin-top: 2.5mm; color: #111; }
+.section-title:first-child { margin-top: 0; }
+.col-title { font-size: 6pt; font-weight: bold; text-transform: uppercase; letter-spacing: 0.14em; color: #444; border-bottom: 0.5pt solid #999; padding-bottom: 0.4mm; margin-bottom: 1.2mm; }
+.dots { font-size: 8pt; letter-spacing: 0.5pt; white-space: nowrap; font-style: normal; }
+.sheet-main { display: grid; grid-template-columns: 50mm 1fr 43mm; gap: 4mm; margin-bottom: 3mm; }
+.attr-group { margin-bottom: 1.5mm; }
+.attr-group-name { font-size: 6pt; text-transform: uppercase; letter-spacing: 0.1em; color: #666; margin-bottom: 0.6mm; }
+.attr-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5mm; font-size: 8pt; }
+.abilities-cols { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2mm; }
+.ability-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4mm; padding-bottom: 0.3mm; border-bottom: 0.3pt dotted #bbb; font-size: 7pt; }
+.bg-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5mm; padding-bottom: 0.3mm; border-bottom: 0.3pt dotted #bbb; font-size: 8pt; }
+.art-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5mm; padding-bottom: 0.3mm; border-bottom: 0.3pt dotted #bbb; font-size: 8pt; }
+.sheet-secondary { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; margin-bottom: 3mm; }
+.text-box { border: 0.5pt solid #999; border-radius: 1mm; padding: 2mm 2.5mm; font-size: 7.5pt; line-height: 1.45; margin-top: 1mm; }
+.text-box.tall { min-height: 26mm; }
+.text-box.medium { min-height: 18mm; }
+.text-box strong { font-size: 7.5pt; }
+.sheet-footer { border-top: 1.5px solid #111; padding-top: 2.5mm; }
+.pools-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 3mm; margin-bottom: 2mm; }
+.pool-label { font-size: 6pt; font-weight: bold; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: 1mm; }
+.pool-sublabel { font-weight: normal; font-size: 5.5pt; text-transform: none; letter-spacing: 0; color: #666; }
+.pool-track { display: flex; gap: 1.2mm; flex-wrap: wrap; }
+.bubble { width: 3.8mm; height: 3.8mm; border: 0.8pt solid #111; border-radius: 50%; display: inline-block; flex-shrink: 0; }
+.bubble.filled { background: #111; }
+.health-row { display: flex; gap: 3mm; align-items: flex-end; margin-top: 0.5mm; }
+.health-level { display: flex; flex-direction: column; align-items: center; gap: 0.6mm; }
+.health-name { font-size: 6pt; text-align: center; line-height: 1.2; white-space: nowrap; }
+.health-penalty { font-size: 5.5pt; color: #555; text-align: center; min-height: 2mm; }
+.health-box { width: 3.8mm; height: 3.8mm; border: 0.8pt solid #111; display: inline-block; }
+.backstory-box { border: 0.5pt solid #999; border-radius: 1mm; padding: 2mm 2.5mm; font-size: 7.5pt; line-height: 1.7; margin-top: 1mm; }
+.backstory-box ul { list-style: none; padding: 0; }
+.backstory-box ul li::before { content: "— "; color: #999; }
+@media print { body { padding: 0; } .sheet { page-break-after: always; } .sheet:last-child { page-break-after: avoid; } }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <div class="sheet-header">
+    <div class="sheet-title">Changeling: The Dreaming — One-Shot Pregen</div>
+    <div class="char-name">Fariel</div>
+    <div class="char-meta">
+      <div class="meta-field"><span class="meta-label">Kith</span><span class="meta-value">Piskie</span></div>
+      <div class="meta-field"><span class="meta-label">Seeming</span><span class="meta-value">Wilder</span></div>
+      <div class="meta-field"><span class="meta-label">Court</span><span class="meta-value">Seelie</span></div>
+      <div class="meta-field"><span class="meta-label">Legacy</span><span class="meta-value">Panderer / Riddler</span></div>
+    </div>
+  </div>
+
+  <div class="sheet-main">
+
+    <div>
+      <div class="section-title">Attributes</div>
+      <div class="attr-group">
+        <div class="attr-group-name">Physical</div>
+        <div class="attr-row"><span>Strength</span><span class="dots">●○○○○</span></div>
+        <div class="attr-row"><span>Dexterity</span><span class="dots">●●●○○</span></div>
+        <div class="attr-row"><span>Stamina</span><span class="dots">●●○○○</span></div>
+      </div>
+      <div class="attr-group">
+        <div class="attr-group-name">Social</div>
+        <div class="attr-row"><span>Charisma</span><span class="dots">●●●●○</span></div>
+        <div class="attr-row"><span>Manipulation</span><span class="dots">●●●○○</span></div>
+        <div class="attr-row"><span>Appearance</span><span class="dots">●●●○○</span></div>
+      </div>
+      <div class="attr-group">
+        <div class="attr-group-name">Mental</div>
+        <div class="attr-row"><span>Perception</span><span class="dots">●●●○○</span></div>
+        <div class="attr-row"><span>Intelligence</span><span class="dots">●●○○○</span></div>
+        <div class="attr-row"><span>Wits</span><span class="dots">●●●●○</span></div>
+      </div>
+      <div class="section-title">Backgrounds</div>
+      <div class="bg-row"><span>Contacts</span><span class="dots">●●●○○</span></div>
+      <div class="bg-row"><span>Dreamers</span><span class="dots">●○○○○</span></div>
+      <div class="bg-row"><span>Remembrance</span><span class="dots">●●○○○</span></div>
+      <div class="bg-row"><span>&nbsp;</span><span class="dots">○○○○○</span></div>
+      <div class="bg-row"><span>&nbsp;</span><span class="dots">○○○○○</span></div>
+    </div>
+
+    <div>
+      <div class="section-title">Abilities</div>
+      <div class="abilities-cols">
+        <div>
+          <div class="col-title">Talents</div>
+          <div class="ability-row"><span>Alertness</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Athletics</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Brawl</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Dodge</span><span class="dots">●●○○○</span></div>
+          <div class="ability-row"><span>Empathy</span><span class="dots">●●●○○</span></div>
+          <div class="ability-row"><span>Expression</span><span class="dots">●●●○○</span></div>
+          <div class="ability-row"><span>Intimidation</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Kenning</span><span class="dots">●●○○○</span></div>
+          <div class="ability-row"><span>Leadership</span><span class="dots">●○○○○</span></div>
+          <div class="ability-row"><span>Streetwise</span><span class="dots">●●○○○</span></div>
+          <div class="ability-row"><span>Subterfuge</span><span class="dots">○○○○○</span></div>
+        </div>
+        <div>
+          <div class="col-title">Skills</div>
+          <div class="ability-row"><span>Animal Ken</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Crafts</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Drive</span><span class="dots">●○○○○</span></div>
+          <div class="ability-row"><span>Etiquette</span><span class="dots">●●●○○</span></div>
+          <div class="ability-row"><span>Firearms</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Melee</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Performance</span><span class="dots">●●○○○</span></div>
+          <div class="ability-row"><span>Stealth</span><span class="dots">●●○○○</span></div>
+          <div class="ability-row"><span>Survival</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Technology</span><span class="dots">●○○○○</span></div>
+        </div>
+        <div>
+          <div class="col-title">Knowledges</div>
+          <div class="ability-row"><span>Academics</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Computer</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Enigmas</span><span class="dots">●○○○○</span></div>
+          <div class="ability-row"><span>Faerie Lore</span><span class="dots">●●○○○</span></div>
+          <div class="ability-row"><span>Gremayre</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Investigation</span><span class="dots">●●●○○</span></div>
+          <div class="ability-row"><span>Law</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Medicine</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Occult</span><span class="dots">○○○○○</span></div>
+          <div class="ability-row"><span>Politics</span><span class="dots">●○○○○</span></div>
+          <div class="ability-row"><span>Science</span><span class="dots">○○○○○</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="section-title">Arts</div>
+      <div class="art-row"><span>Chicanery</span><span class="dots">●●○○○</span></div>
+      <div class="art-row"><span>Soothsay</span><span class="dots">●○○○○</span></div>
+      <div class="art-row"><span>&nbsp;</span><span class="dots">○○○○○</span></div>
+      <div class="section-title">Realms</div>
+      <div class="art-row"><span>Actor</span><span class="dots">●●●○○</span></div>
+      <div class="art-row"><span>Fae</span><span class="dots">●○○○○</span></div>
+      <div class="art-row"><span>Nature</span><span class="dots">○○○○○</span></div>
+      <div class="art-row"><span>Prop</span><span class="dots">○○○○○</span></div>
+      <div class="art-row"><span>Scene</span><span class="dots">●●○○○</span></div>
+      <div class="art-row"><span>Time</span><span class="dots">○○○○○</span></div>
+    </div>
+
+  </div>
+
+  <div class="sheet-secondary">
+
+    <div>
+      <div class="section-title">Cantrips</div>
+      <div class="text-box tall">
+        <strong>Trick of the Light</strong> (Chicanery 1)<br>
+        Viewers misinterpret target for 1 turn per success — wrong face, voice, or object. Anyone paying close attention for more than a turn can roll Perception + Occult (diff 8) to see through it. Type: Chimerical.<br><br>
+        <strong>Veiled Eyes</strong> (Chicanery 2)<br>
+        Target becomes forgettable — not invisible, just not worth noticing. Duration: 1=turn, 2=minute, 3=hour, 4=scene, 5=day. Extra Realms create exceptions. Resisted by Perception + Kenning (diff 8) if actively searching. Type: Chimerical or Wyrd.<br><br>
+        <strong>Omen</strong> (Soothsay 1)<br>
+        Brief vague glimpse of a target's destiny thread. By successes: 1=immediate plans, 2=court/nature, 3=long-term goal, 4=inner nature/Legacy, 5=closely-guarded secret. Always subject to interpretation. Repeated casts on the same target cost +1 Glamour each. Type: Chimerical.
+      </div>
+    </div>
+
+    <div>
+      <div class="section-title">Kith: Piskie</div>
+      <div class="text-box medium">
+        <strong>Boon — Wings:</strong> In fae mien, can fly at running speed. Also supernaturally nimble — add Glamour to Dexterity rolls to squeeze through tight spaces, escape holds, or move through obstacles.<br><br>
+        <strong>Frailty — Compulsive Curiosity:</strong> Cannot ignore an unsolved puzzle, mystery, or person who doesn't add up without a Willpower roll (difficulty 7).
+      </div>
+      <div class="section-title">Health</div>
+      <div class="health-row">
+        <div class="health-level"><span class="health-name">Bruised</span><span class="health-penalty">&nbsp;</span><span class="health-box"></span></div>
+        <div class="health-level"><span class="health-name">Hurt</span><span class="health-penalty">−1</span><span class="health-box"></span></div>
+        <div class="health-level"><span class="health-name">Injured</span><span class="health-penalty">−1</span><span class="health-box"></span></div>
+        <div class="health-level"><span class="health-name">Wounded</span><span class="health-penalty">−2</span><span class="health-box"></span></div>
+        <div class="health-level"><span class="health-name">Mauled</span><span class="health-penalty">−2</span><span class="health-box"></span></div>
+        <div class="health-level"><span class="health-name">Crippled</span><span class="health-penalty">−5</span><span class="health-box"></span></div>
+        <div class="health-level"><span class="health-name">Incapacit.</span><span class="health-penalty">&nbsp;</span><span class="health-box"></span></div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="sheet-footer">
+    <div class="pools-row">
+      <div>
+        <div class="pool-label">Glamour <span class="pool-sublabel">starts at 5 — track with pencil</span></div>
+        <div class="pool-track">
+          <span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span>
+          <span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span>
+        </div>
+      </div>
+      <div>
+        <div class="pool-label">Willpower <span class="pool-sublabel">starts at 5 — track with pencil</span></div>
+        <div class="pool-track">
+          <span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span>
+          <span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span>
+        </div>
+      </div>
+      <div>
+        <div class="pool-label">Banality <span class="pool-sublabel">permanent</span></div>
+        <div class="pool-track">
+          <span class="bubble filled"></span><span class="bubble filled"></span><span class="bubble filled"></span><span class="bubble filled"></span>
+          <span class="bubble"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span>
+          <span class="bubble"></span><span class="bubble"></span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="section-title">Who You Are in Seattle</div>
+      <div class="backstory-box">
+        <ul>
+          <li>Freelance journalist — Stranger and alt-press bylines, the "weird Seattle" beat: zoning fights, disappearing storefronts, things that shouldn't still exist but do.</li>
+          <li>Started coming to Rainier Lanes while reporting on the corridor. Stayed because the place remembered him even when he couldn't quite remember it.</li>
+          <li>Has gaps he's stopped explaining away. Some of what he knows, he doesn't know how he knows.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

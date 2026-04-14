@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Changeling — Quick Reference</title>
+<style>
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+@page {
+  size: A4 landscape;
+  margin: 10mm;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 8.5pt;
+  color: #111;
+  background: white;
+  width: 277mm;
+  margin: 0 auto;
+  padding: 4mm;
+}
+
+/* ── Card grid: two half-A4 cards side by side ── */
+.card-row {
+  display: flex;
+  gap: 8mm;
+  width: 100%;
+}
+
+.card {
+  flex: 1;
+  border: 1.5px solid #111;
+  padding: 5mm 6mm;
+}
+
+/* ── Card header ── */
+.card-header {
+  border-bottom: 1.5px solid #111;
+  padding-bottom: 2.5mm;
+  margin-bottom: 3mm;
+}
+
+.card-label {
+  font-size: 5.5pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 0.5mm;
+}
+
+.card-title {
+  font-size: 13pt;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1;
+}
+
+.card-subtitle {
+  font-size: 7pt;
+  color: #555;
+  margin-top: 1mm;
+}
+
+/* ── Core mechanic box ── */
+.mechanic-box {
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 3mm 4mm;
+  margin-bottom: 3.5mm;
+}
+
+.mechanic-box p {
+  line-height: 1.5;
+  font-size: 8pt;
+}
+
+.mechanic-box strong {
+  font-size: 8.5pt;
+}
+
+.success-row {
+  display: flex;
+  gap: 5mm;
+  margin-top: 1.5mm;
+  font-size: 7.5pt;
+}
+
+.success-row span {
+  color: #444;
+}
+
+.success-row .botch {
+  color: #a00;
+}
+
+/* ── Roll table ── */
+.roll-section {
+  margin-bottom: 3mm;
+}
+
+.section-heading {
+  font-size: 6pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #888;
+  border-bottom: 0.5px solid #ccc;
+  padding-bottom: 1mm;
+  margin-bottom: 1.5mm;
+}
+
+.roll-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0mm;
+  padding: 1mm 0;
+  border-bottom: 0.5px solid #eee;
+  line-height: 1.3;
+}
+
+.roll-row:last-child {
+  border-bottom: none;
+}
+
+.roll-intent {
+  flex: 0 0 42%;
+  font-size: 8pt;
+}
+
+.roll-sr {
+  display: block;
+  font-size: 6pt;
+  color: #999;
+  font-style: italic;
+  margin-top: 0.5mm;
+}
+
+.roll-pool {
+  flex: 1;
+  font-size: 7.5pt;
+  color: #222;
+}
+
+.roll-note {
+  display: block;
+  font-size: 6pt;
+  color: #777;
+  margin-top: 0.3mm;
+}
+
+/* ── Cantrip section ── */
+.cantrip-note {
+  font-size: 7.5pt;
+  line-height: 1.5;
+  margin-bottom: 2mm;
+}
+
+.cantrip-row {
+  display: flex;
+  align-items: baseline;
+  padding: 1mm 0;
+  border-bottom: 0.5px solid #eee;
+  gap: 0;
+}
+
+.cantrip-row:last-child {
+  border-bottom: none;
+}
+
+.cantrip-label {
+  flex: 0 0 42%;
+  font-size: 8pt;
+}
+
+.cantrip-detail {
+  flex: 1;
+  font-size: 7.5pt;
+  color: #222;
+}
+
+.cantrip-detail .roll-note {
+  display: block;
+}
+
+/* ── Damage / health box ── */
+.damage-box {
+  margin-top: 3mm;
+  font-size: 7.5pt;
+  line-height: 1.6;
+}
+
+.damage-box .section-heading {
+  margin-bottom: 1.5mm;
+}
+
+.dmg-row {
+  display: flex;
+  gap: 0;
+  padding: 0.8mm 0;
+  border-bottom: 0.5px solid #eee;
+}
+
+.dmg-row:last-child { border-bottom: none; }
+
+.dmg-type {
+  flex: 0 0 42%;
+  font-size: 8pt;
+}
+
+.dmg-detail {
+  flex: 1;
+  font-size: 7.5pt;
+}
+
+</style>
+</head>
+<body>
+
+<div class="card-row">
+
+  <!-- ══════════════════════════════════════════════ -->
+  <!-- CARD LEFT — Core Mechanic + Common Rolls       -->
+  <!-- ══════════════════════════════════════════════ -->
+  <div class="card">
+
+    <div class="card-header">
+      <div class="card-label">Changeling: The Dreaming</div>
+      <div class="card-title">Dice &amp; Rolls</div>
+      <div class="card-subtitle">Common pools — for Shadowrun players</div>
+    </div>
+
+    <div class="mechanic-box">
+      <p><strong>Roll:</strong> Attribute + Ability. Count dice that meet or beat the <strong>difficulty</strong> (default&nbsp;<strong>6</strong>). Each qualifying die = 1 success.</p>
+      <p style="margin-top:1mm;">Rolled <strong>1s subtract</strong> from your successes. Zero successes = failure. At least one 1 and no net successes = <strong>botch</strong>.</p>
+      <div class="success-row">
+        <span><strong>1</strong> — barely</span>
+        <span><strong>3</strong> — solid</span>
+        <span><strong>5+</strong> — exceptional</span>
+        <span class="botch"><strong>botch</strong> — something interesting happens</span>
+      </div>
+    </div>
+
+    <div class="roll-section">
+      <div class="section-heading">Perception &amp; Awareness</div>
+
+      <div class="roll-row">
+        <div class="roll-intent">
+          Notice something
+          <span class="roll-sr">SR: Perception</span>
+        </div>
+        <div class="roll-pool">
+          Perception + Alertness
+          <span class="roll-note">Diff 6. Passive; GM calls for it.</span>
+        </div>
+      </div>
+
+      <div class="roll-row">
+        <div class="roll-intent">
+          Sense fae / Dreaming
+          <span class="roll-sr">SR: Assensing</span>
+        </div>
+        <div class="roll-pool">
+          Perception + Kenning
+          <span class="roll-note">Diff 6–8. Senses kith, enchantment, chimerical things. Your astral perception.</span>
+        </div>
+      </div>
+
+      <div class="roll-row">
+        <div class="roll-intent">
+          Read a person
+          <span class="roll-sr">SR: Perception vs. Con</span>
+        </div>
+        <div class="roll-pool">
+          Perception + Empathy
+          <span class="roll-note">Diff 6. Mood, intent, emotional state.</span>
+        </div>
+      </div>
+
+      <div class="roll-row">
+        <div class="roll-intent">
+          Spot a lie
+          <span class="roll-sr">SR: Perception vs. Con</span>
+        </div>
+        <div class="roll-pool">
+          Perception + Subterfuge
+          <span class="roll-note">Diff 6. Opposed by their Manipulation + Subterfuge.</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="roll-section">
+      <div class="section-heading">Social</div>
+
+      <div class="roll-row">
+        <div class="roll-intent">
+          Persuade / inspire
+          <span class="roll-sr">SR: Negotiation / Leadership</span>
+        </div>
+        <div class="roll-pool">
+          Charisma + Leadership or Expression
+          <span class="roll-note">Diff 6. Use Expression for performance or storytelling.</span>
+        </div>
+      </div>
+
+      <div class="roll-row">
+        <div class="roll-intent">
+          Deceive / manipulate
+          <span class="roll-sr">SR: Con / Impersonation</span>
+        </div>
+        <div class="roll-pool">
+          Manipulation + Subterfuge
+          <span class="roll-note">Diff 6. Contested by Perception + Subterfuge if they're suspicious.</span>
+        </div>
+      </div>
+
+      <div class="roll-row">
+        <div class="roll-intent">
+          Navigate formal situations
+          <span class="roll-sr">SR: Etiquette</span>
+        </div>
+        <div class="roll-pool">
+          Charisma + Etiquette
+          <span class="roll-note">Diff 6. Includes fae court protocol.</span>
+        </div>
+      </div>
+
+      <div class="roll-row">
+        <div class="roll-intent">
+          Intimidate
+          <span class="roll-sr">SR: Intimidation</span>
+        </div>
+        <div class="roll-pool">
+          Strength or Manipulation + Intimidation
+          <span class="roll-note">Strength = physical menace. Manipulation = cold, deliberate.</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="roll-section">
+      <div class="section-heading">Stealth &amp; Movement</div>
+
+      <div class="roll-row">
+        <div class="roll-intent">
+          Move unseen / unheard
+          <span class="roll-sr">SR: Stealth</span>
+        </div>
+        <div class="roll-pool">
+          Dexterity + Stealth
+          <span class="roll-note">Opposed by Perception + Alertness of anyone watching.</span>
+        </div>
+      </div>
+
+      <div class="roll-row">
+        <div class="roll-intent">
+          Sprint, climb, jump
+          <span class="roll-sr">SR: Athletics</span>
+        </div>
+        <div class="roll-pool">
+          Dexterity or Strength + Athletics
+          <span class="roll-note">Dex for agility; Str for raw power.</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="roll-section">
+      <div class="section-heading">Legwork &amp; Knowledge</div>
+
+      <div class="roll-row">
+        <div class="roll-intent">
+          Find / research information
+          <span class="roll-sr">SR: Legwork / Matrix search</span>
+        </div>
+        <div class="roll-pool">
+          Intelligence + Investigation
+          <span class="roll-note">Diff 6–8 by availability. More successes = faster and cleaner.</span>
+        </div>
+      </div>
+
+      <div class="roll-row">
+        <div class="roll-intent">
+          Recall fae lore or magic
+          <span class="roll-sr">SR: Arcana / background knowledge</span>
+        </div>
+        <div class="roll-pool">
+          Intelligence + Gremayre
+          <span class="roll-note">Diff varies. Kith, history, court politics, Arts theory, cantrip mechanics.</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div><!-- end card left -->
+
+
+  <!-- ══════════════════════════════════════════════ -->
+  <!-- CARD RIGHT — Combat + Investigation + Cantrips -->
+  <!-- ══════════════════════════════════════════════ -->
+  <div class="card">
+
+    <div class="card-header">
+      <div class="card-label">Changeling: The Dreaming</div>
+      <div class="card-title">Combat &amp; Cantrips</div>
+      <div class="card-subtitle">Common pools — for Shadowrun players</div>
+    </div>
+
+    <div class="roll-section">
+      <div class="section-heading">Combat</div>
+
+      <div class="roll-row">
+        <div class="roll-intent">
+          Attack (weapon)
+          <span class="roll-sr">SR: Weapon skill</span>
+        </div>
+        <div class="roll-pool">
+          Dexterity + Melee
+          <span class="roll-note">Diff 6. Defender rolls Dexterity + Dodge (diff 6) — successes cancel yours.</span>
+        </div>
+      </div>
+
+      <div class="roll-row">
+        <div class="roll-intent">
+          Attack (unarmed)
+          <span class="roll-sr">SR: Unarmed Combat</span>
+        </div>
+        <div class="roll-pool">
+          Strength + Brawl
+          <span class="roll-note">Diff 6. Same dodge opposition applies.</span>
+        </div>
+      </div>
+
+      <div class="roll-row">
+        <div class="roll-intent">
+          Soak damage
+          <span class="roll-sr">SR: Body</span>
+        </div>
+        <div class="roll-pool">
+          Stamina
+          <span class="roll-note">Diff 6 (bashing) / Diff 8 (lethal). Each success removes one health level of damage.</span>
+        </div>
+      </div>
+
+      <div class="roll-row">
+        <div class="roll-intent">
+          Resist mental / social effects
+          <span class="roll-sr">SR: Composure / Resistance</span>
+        </div>
+        <div class="roll-pool">
+          Willpower
+          <span class="roll-note">Difficulty set by the effect. Also spent as a flat point to gain an automatic success on any roll (once per roll).</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="mechanic-box" style="margin-bottom:3.5mm;">
+      <div class="section-heading" style="margin-bottom:1.5mm;">How Damage Works</div>
+      <p style="font-size:7.5pt; line-height:1.6;">
+        <strong>1. Attack lands</strong> — net successes on your attack roll add to your damage dice pool.<br>
+        <strong>2. Roll damage</strong> — weapon rating + net attack successes, diff 6. Successes = health levels dealt.<br>
+        <strong>3. Defender soaks</strong> — Stamina roll, diff 6 (bashing) / diff 8 (lethal). Each success removes one health level.<br>
+        <strong>Unarmed</strong> = Strength dice, bashing. <strong>Weapons</strong> = Strength + bonus, lethal.
+      </p>
+    </div>
+
+    <div class="roll-section">
+      <div class="section-heading">Cantrips — Fae Magic</div>
+
+      <div class="cantrip-note">
+        Roll <strong>Art + lowest Realm used</strong>, difficulty <strong>8</strong>. Chimerical cantrips cost <strong>no Glamour</strong>. Wyrd costs <strong>1 Glamour</strong>. Extra costs only from modifications (additional Realms, etc.). Successes determine effect strength and duration.
+      </div>
+
+      <div class="cantrip-row">
+        <div class="cantrip-label">Realm required</div>
+        <div class="cantrip-detail">
+          Every cantrip needs a Realm that covers the target — <em>Actor</em> for people, <em>Fae</em> for changelings, <em>Nature</em> for animals/plants, <em>Prop</em> for objects. Your Realm rating must be ≥ 1 to target that category.
+          <span class="roll-note">Check your sheet. If your Realm is 0 for that target type, you can't cast on it.</span>
+        </div>
+      </div>
+
+      <div class="cantrip-row">
+        <div class="cantrip-label">Chimerical vs. Wyrd</div>
+        <div class="cantrip-detail">
+          <strong>Chimerical</strong> — only fae and enchanted people perceive the effect. Mortals see nothing.<br>
+          <strong>Wyrd</strong> — everyone sees it. Mortals rationalise it. Costs +1 Glamour.
+          <span class="roll-note">Each cantrip on your sheet is labelled.</span>
+        </div>
+      </div>
+
+      <div class="cantrip-row">
+        <div class="cantrip-label">The Bunk</div>
+        <div class="cantrip-detail">
+          Before casting, you can perform a <strong>bunk</strong> — a brief ritual that channels Glamour. You describe it; the GM assigns bonus dice based on how elaborate, creative, or risky it is.
+          <span class="roll-note" style="margin-top:1mm; display:block;"><strong>−1</strong> — a gesture or single word &nbsp;|&nbsp; <strong>−2</strong> — a short phrase, a specific action &nbsp;|&nbsp; <strong>−3</strong> — conspicuous (singing, spinning, a rhyme out loud) &nbsp;|&nbsp; <strong>−4 / −5</strong> — time-consuming, self-endangering, or completely outrageous</span>
+          <span class="roll-note">The bunk is not flavour — it is mechanics. Diff 8 is brutal. Make it yours.</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div><!-- end card right -->
+
+</div><!-- end card-row -->
+
+</body>
+</html>

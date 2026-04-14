@@ -56,8 +56,7 @@
 | Academics    | 0      |
 | Computer     | 0      |
 | Enigmas      | 2      |
-| Faerie Lore  | 2      |
-| Gremayre     | 1      |
+| Gremayre     | 2      |
 | Investigation| 0      |
 | Law          | 0      |
 | Medicine     | 0      |
@@ -77,19 +76,20 @@
 | Remembrance | 1      |
 
 ### Arts
-| Art        | Rating |
-|------------|--------|
-| Chicanery  | 2      |
-| Primal     | 1      |
+| Art          | Rating |
+|--------------|--------|
+| Metamorphosis| 2      |
+| Chicanery    | 1      |
 
 ### Realms
 | Realm  | Rating |
 |--------|--------|
-| Actor  | 3      |
+| Actor  | 2      |
 | Fae    | 2      |
-| Nature | 2      |
+| Nature | 1      |
 | Prop   | 0      |
 | Scene  | 0      |
+| Time   | 0      |
 
 ---
 
@@ -105,14 +105,14 @@
 
 ## Cantrips
 
-**Veiled Eyes** (Chicanery 1)
-Target overlooks something present. Diff 6, resisted by Willpower.
+**Sparrows and Nightingales** (Metamorphosis 1)
+Transform target into a small animal (bird, rodent, cat). Duration by successes; target retains mind but loses speech and fine motor skills. Type: Chimerical.
 
-**Fugue** (Chicanery 2)
-Target forgets the last few minutes. Diff 7, resisted by Willpower.
+**Worms and Giants** (Metamorphosis 2)
+Alter target's size — shrink or grow. Each success shifts size by one step. Affects Strength (up) or Dexterity/Stealth (down for large, up for small). Duration by successes. Type: Chimerical.
 
-**Willow-Wisp** (Primal 1)
-Summon a floating light you can direct. Diff 4.
+**Trick of the Light** (Chicanery 1)
+Viewers misinterpret target for 1 turn per success — wrong face, wrong voice, wrong object. Doesn't hold up to scrutiny. Type: Chimerical.
 
 ---
 
@@ -124,12 +124,15 @@ Summon a floating light you can direct. Diff 4.
 
 ---
 
-## Merits & Flaws
+## Mortal Identity
 
-<!-- to be added -->
+Barista and part-time visual artist — murals, paste-ups, small-run zine covers. Moves through Capitol Hill like she's lived there forever. Everyone half-remembers her from somewhere. She doesn't correct them.
 
 ---
 
-## Play Notes
+## Seattle Backstory Hooks
 
-Wants to be trusted but constitutionally cannot be honest. Protective of the group — shows it through deflection and misdirection rather than warmth. Plays the clown; takes the work seriously.
+- Does her best work as a fox; the human side is always slightly performing
+- Part of the Rainier Lanes crowd for years — but "years" is hazy when you try to count them
+- Has a small chimerical fox companion she hasn't introduced to anyone yet
+- Mortals find her magnetic and slightly untrustworthy. She finds this accurate.

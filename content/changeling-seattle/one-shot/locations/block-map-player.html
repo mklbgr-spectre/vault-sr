@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Block Map — Rainier Lanes</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #111;
+    font-family: 'Courier New', monospace;
+    padding: 48px 24px;
+    color: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 11px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #c4921e;
+    margin-bottom: 4px;
+  }
+
+  .subtitle {
+    font-size: 10px;
+    color: #444;
+    letter-spacing: 2px;
+    margin-bottom: 36px;
+  }
+
+  .map-wrap {
+    position: relative;
+    width: 660px;
+  }
+
+  .north-label {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    font-size: 10px;
+    color: #444;
+    letter-spacing: 2px;
+  }
+
+  .map {
+    display: grid;
+    grid-template-columns: 190px 44px 340px 86px;
+    grid-template-rows: 32px 96px 136px 96px 32px;
+  }
+
+  /* STREETS */
+  .union-st {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    background: #252525;
+    border-top: 1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lower-st {
+    grid-column: 1 / -1;
+    grid-row: 5;
+    background: #252525;
+    border-top: 1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .street-label {
+    font-size: 9px;
+    color: #555;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  .street-23rd {
+    grid-column: 2;
+    grid-row: 2 / 5;
+    background: #252525;
+    border-left: 1px solid #3a3a3a;
+    border-right: 1px solid #3a3a3a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .street-23rd span {
+    font-size: 9px;
+    color: #555;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+  }
+
+  /* WEST — CONDO */
+  .condo {
+    grid-column: 1;
+    grid-row: 2 / 5;
+    background: #0f1e2e;
+    border: 1px solid #1e3e5e;
+    border-right: none;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* EAST TOP — barbershop + solomon's (flex row) */
+  .east-top {
+    grid-column: 3;
+    grid-row: 2;
+    display: flex;
+  }
+
+  .barber {
+    flex: 0 0 116px;
+    background: #221a10;
+    border: 1px solid #4a3820;
+    border-right: none;
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .ethiopian {
+    flex: 1;
+    background: #0e1e0e;
+    border: 1px solid #2a4a2a;
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  /* EAST MID — RAINIER LANES */
+  .rainier {
+    grid-column: 3;
+    grid-row: 3;
+    background: #1e1000;
+    border: 2px solid #c4921e;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* EAST BOTTOM — PARKING LOT */
+  .parking {
+    grid-column: 3;
+    grid-row: 4;
+    background: #181818;
+    border: 1px dashed #444;
+    border-top: none;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  /* FAR EAST — CONSTRUCTION */
+  .construction {
+    grid-column: 4;
+    grid-row: 2 / 5;
+    background: #111;
+    border: 1px dashed #3a3000;
+    border-left: none;
+    padding: 12px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  /* ── TYPOGRAPHY ─────────────────────────────────── */
+  .bname {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+
+  .bdetail {
+    font-size: 9px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+  }
+
+  /* color themes */
+  .c-condo   { color: #4a8acc; }
+  .c-old     { color: #907050; }
+  .c-ally    { color: #5a9a5a; }
+  .c-rainier { color: #c4921e; }
+  .c-muted   { color: #555; }
+  .c-crane   { color: #3a3000; }
+
+  /* crane drawing */
+  .crane {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .crane-arm {
+    width: 60px;
+    height: 3px;
+    background: #3a3000;
+    margin-left: 10px;
+  }
+
+  .crane-mast {
+    width: 3px;
+    height: 50px;
+    background: #3a3000;
+  }
+
+  .crane-base {
+    width: 20px;
+    height: 4px;
+    background: #3a3000;
+  }
+
+  /* LEGEND */
+  .legend {
+    margin-top: 28px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 9px;
+    color: #444;
+    letter-spacing: 1px;
+  }
+
+  .ldot {
+    width: 10px;
+    height: 10px;
+    flex-shrink: 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="title">Rainier Lanes — The Block</div>
+<div class="subtitle">South Capitol Hill · CD Border · Seattle</div>
+
+<div class="map-wrap">
+  <div class="north-label">N &uarr;</div>
+
+  <div class="map">
+
+    <!-- Union Street -->
+    <div class="union-st">
+      <span class="street-label">Union Street</span>
+    </div>
+
+    <!-- CONDO (west, full height) -->
+    <div class="condo">
+      <div>
+        <div class="bname c-condo">New Condo</div>
+        <div class="bdetail c-condo" style="opacity:0.65; margin-top:5px">
+          4 stories<br>
+          Finished 18 months ago
+        </div>
+      </div>
+      <div>
+        <div class="bname c-condo" style="font-size:9px">Ground Floor</div>
+        <div class="bdetail c-condo" style="opacity:0.5; font-style:italic; margin-top:3px">
+          Coffee shop
+        </div>
+      </div>
+    </div>
+
+    <!-- 23rd Ave -->
+    <div class="street-23rd">
+      <span>23rd Ave</span>
+    </div>
+
+    <!-- EAST TOP: barber + ethiopian -->
+    <div class="east-top">
+
+      <div class="barber">
+        <div class="bname c-old" style="font-size:10px">Earl's</div>
+        <div class="bdetail c-old" style="opacity:0.6; margin-top:3px">
+          Barbershop<br>
+          Corner 23rd &amp; Union
+        </div>
+      </div>
+
+      <div class="ethiopian">
+        <div class="bname c-ally">Solomon's</div>
+        <div class="bdetail c-ally" style="opacity:0.7; margin-top:4px">
+          Ethiopian restaurant<br>
+          20 years on this block
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RAINIER LANES -->
+    <div class="rainier">
+      <div>
+        <div class="bname c-rainier" style="font-size:14px">Rainier Lanes</div>
+        <div class="bdetail c-rainier" style="opacity:0.5; font-style:italic; margin-top:2px">
+          — the "R" flickers —
+        </div>
+        <div class="bdetail c-muted" style="margin-top:10px; line-height:1.8">
+          Est. 1961 &nbsp;·&nbsp; 8 lanes<br>
+          Snack bar &nbsp;·&nbsp; Back room
+        </div>
+      </div>
+    </div>
+
+    <!-- PARKING LOT -->
+    <div class="parking">
+      <div class="bname c-muted" style="font-size:10px; letter-spacing:2px">Parking Lot</div>
+      <div class="bdetail c-muted" style="margin-top:4px; line-height:1.8">
+        Surface lot &nbsp;·&nbsp; South side of alley
+      </div>
+    </div>
+
+    <!-- CONSTRUCTION (far east) -->
+    <div class="construction">
+      <div class="crane">
+        <div class="crane-arm"></div>
+        <div class="crane-mast"></div>
+        <div class="crane-base"></div>
+      </div>
+      <div class="bdetail c-crane" style="text-align:center; line-height:1.8">
+        one block<br>east<br>
+        <br>
+        luxury tower<br>
+        under<br>
+        construction<br>
+        <br>
+        visible from<br>parking lot
+      </div>
+    </div>
+
+    <!-- Lower street -->
+    <div class="lower-st">
+      <span class="street-label">&larr;&nbsp; West &nbsp;·&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;·&nbsp; East &nbsp;&rarr;</span>
+    </div>
+
+  </div>
+</div>
+
+<div class="legend">
+  <div class="legend-item">
+    <div class="ldot" style="background:#0f1e2e; border:1px solid #1e3e5e"></div>New development
+  </div>
+  <div class="legend-item">
+    <div class="ldot" style="background:#1e1000; border:2px solid #c4921e"></div>Rainier Lanes
+  </div>
+  <div class="legend-item">
+    <div class="ldot" style="background:#0e1e0e; border:1px solid #2a4a2a"></div>Restaurant
+  </div>
+  <div class="legend-item">
+    <div class="ldot" style="background:#221a10; border:1px solid #4a3820"></div>Established business
+  </div>
+  <div class="legend-item">
+    <div class="ldot" style="background:#181818; border:1px dashed #444"></div>Parking lot
+  </div>
+</div>
+
+</body>
+</html>

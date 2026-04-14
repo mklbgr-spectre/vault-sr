@@ -1,13 +1,13 @@
 # Hamish
 
-| Field    | Value                              |
-|----------|------------------------------------|
-| Kith     | Sidhe                              |
-| Seeming  | TBD                                |
-| Court    | Unseelie                           |
-| House    | Ailil                              |
-| Noble    | Knight (low rank — intentional)    |
-| Legacy   | TBD                                |
+| Field    | Value                           |
+|----------|---------------------------------|
+| Kith     | Sidhe                           |
+| Seeming  | Wilder                          |
+| Court    | Unseelie                        |
+| House    | Ailil                           |
+| Title    | Knight (low rank — intentional) |
+| Legacy   | Paladin / Knave                 |
 
 ---
 
@@ -15,9 +15,9 @@
 
 | Physical     |   | Social        |   | Mental        |   |
 |--------------|---|---------------|---|---------------|---|
-| Strength     | 0 | Charisma      | 0 | Perception    | 0 |
-| Dexterity    | 0 | Manipulation  | 0 | Intelligence  | 0 |
-| Stamina      | 0 | Appearance    | 0 | Wits          | 0 |
+| Strength     | 3 | Charisma      | 3 | Perception    | 2 |
+| Dexterity    | 2 | Manipulation  | 3 | Intelligence  | 3 |
+| Stamina      | 2 | Appearance    | 4 | Wits          | 3 |
 
 ---
 
@@ -30,13 +30,13 @@
 | Athletics    | 0      |
 | Brawl        | 0      |
 | Dodge        | 0      |
-| Empathy      | 0      |
-| Expression   | 0      |
-| Intimidation | 0      |
-| Kenning      | 0      |
-| Leadership   | 0      |
+| Empathy      | 2      |
+| Expression   | 2      |
+| Intimidation | 2      |
+| Kenning      | 2      |
+| Leadership   | 3      |
 | Streetwise   | 0      |
-| Subterfuge   | 0      |
+| Subterfuge   | 2      |
 
 ### Skills
 | Ability     | Rating |
@@ -44,11 +44,11 @@
 | Animal Ken  | 0      |
 | Crafts      | 0      |
 | Drive       | 0      |
-| Etiquette   | 0      |
+| Etiquette   | 3      |
 | Firearms    | 0      |
-| Melee       | 0      |
-| Performance | 0      |
-| Stealth     | 0      |
+| Melee       | 3      |
+| Performance | 2      |
+| Stealth     | 1      |
 | Survival    | 0      |
 | Technology  | 0      |
 
@@ -58,13 +58,12 @@
 | Academics     | 0      |
 | Computer      | 0      |
 | Enigmas       | 0      |
-| Faerie Lore   | 0      |
-| Gremayre      | 0      |
+| Gremayre      | 3      |
 | Investigation | 0      |
 | Law           | 0      |
 | Medicine      | 0      |
 | Occult        | 0      |
-| Politics      | 0      |
+| Politics      | 2      |
 | Science       | 0      |
 
 ---
@@ -72,63 +71,90 @@
 ## Advantages
 
 ### Backgrounds
-| Background | Rating |
-|------------|--------|
-| TBD        | 0      |
+| Background  | Rating |
+|-------------|--------|
+| Title       | 2      |
+| Contacts    | 2      |
+| Remembrance | 1      |
 
 ### Arts
-| Art          | Rating |
-|--------------|--------|
-| Sovereign    | 2      |
-| Legerdemain  | 1      |
+| Art      | Rating |
+|----------|--------|
+| Sovereign| 2      |
+| Contract | 1      |
 
 ### Realms
 | Realm  | Rating |
 |--------|--------|
-| Actor  | 0      |
-| Fae    | 0      |
+| Actor  | 3      |
+| Fae    | 2      |
 | Nature | 0      |
 | Prop   | 0      |
-| Scene  | 0      |
+| Scene  | 1      |
+| Time   | 0      |
 
 ---
 
 ## Pools
 
-| Pool      | Current | Max |
-|-----------|---------|-----|
-| Glamour   | 0       | 0   |
-| Willpower | 0       | 0   |
-| Banality  | 0       | —   |
+| Pool       | Current | Max |
+|------------|---------|-----|
+| Glamour    | 5       | 10  |
+| Willpower  | 5       | 10  |
+| Banality   | 3       | —   |
 
 ---
 
 ## Cantrips
 
-<!-- to be added -->
+**Protocol** (Sovereign 1)
+Anyone under the effect must observe Kithain etiquette. Violations (even unintentional) incur a penalty to all dice pools equal to cantrip successes for the rest of the scene. Any changeling of higher rank than Hamish can spend Willpower to ignore it. Type: Wyrd.
+
+**Grandeur** (Sovereign 2)
+Others see the caster as royalty or a natural leader. Social interactions gain automatic successes equal to cantrip successes. Affected individuals must spend Willpower each time they wish to contradict, accost, or attack Hamish. Lasts one scene, or until publicly humiliated. Any changeling of higher rank can spend Willpower to ignore. Type: Wyrd.
+
+**Done Deal** (Contract 1)
+Seals a formal agreement with Glamour. Oathbreakers suffer automatic botches equal to cantrip successes, deployed at the most dramatically ironic moments. Can also sanctify oaths between others as witness. Requires a genuine formal promise — casual agreements don't qualify. Type: Chimerical.
 
 ---
 
 ## Kith: Sidhe
 
-**Boon — TBD** (Sidhe Sovereign — presence commands deference; mechanical effect TBD)
+**Boon — Noble Bearing:** In fae mien, Sidhe presence commands awe. Mortals and changelings of lesser Title must make Willpower rolls to act against or dismiss them in formal situations. Appearance-based Social rolls may add Glamour rating as bonus dice when in full fae mien.
 
-**Frailty — Spirit Pariah:** Chimeras and chimerical beings instinctively distrust or avoid him. His noble bloodline reads as a threat or an imposition to wild fae things.
+**Frailty — Cold Iron:** Takes aggravated damage from cold iron. Even brief contact is acutely painful.
+
+**Flaw — Spirit Pariah:** Chimeras and chimerical creatures instinctively distrust or avoid Hamish. His Ailil bloodline reads as threat or imposition to wild fae things. This is not hostility — it is wariness. It cannot be argued away.
 
 ---
 
 ## Merits & Flaws
 
-<!-- Spirit Pariah as a Flaw — confirm mechanics when building -->
+
+
+---
+
+## Mortal Identity
+
+Independent financial consultant — vague enough to explain away irregular hours and unusual contacts, credible enough that nobody asks follow-up questions. Moves between corporate and community worlds without friction. His actual court obligations look, from the outside, like networking.
 
 ---
 
 ## Play Notes
 
-Unseelie Sidhe noble — the social weight he carried in Shadowrun is now baked into the rules and given a dark court flavor. His presence at Marla's alley is a choice he makes outside his court obligations; he's there as himself, not as a representative.
+The formal weight of his title is real in any scene involving court politics — and a reason to want somewhere that weight can be set down for a few hours. Rainier Lanes is that place. He's there as himself, not as a representative.
 
-The Spirit Pariah frailty lands harder as an Unseelie noble: chimeras don't just distrust the bloodline, they distrust the cold authority that comes with it. Respected by mortals and changelings who know the hierarchy, unsettling to wild fae things that don't answer to courts.
+Sovereign 2 makes him the party's authority figure in social confrontations — Protocol to impose rules, Grandeur to own a room. Contract seals things properly and punishes betrayal. Together they make him exceptionally effective at negotiation and exceptionally dangerous when crossed.
 
-His noble title gives him formal weight in any scene involving court politics — and a reason to want neutral ground where that weight can be set down for a few hours. That's what Marla's is for him.
+Spirit Pariah creates interesting Act 2 texture: the Glome's wariness of him is the frailty in action. The party accepted him; the building isn't sure yet. Whether that resolves is up to how he handles the introduction.
 
-**Player note:** Player has experience with this character type — lean into that rather than over-explaining the Unseelie noble dynamic.
+The Unseelie designation is flavor, not an alignment. He makes choices others find uncomfortable and doesn't apologize for them. That's different from being a villain.
+
+---
+
+## Seattle Backstory Hooks
+
+- Holds a minor title in the Ailil court — "Sir Hamish" in formal contexts. Nobody here uses it. He hasn't corrected them.
+- Mortal cover: independent financial consultant. Credible enough that nobody asks what he actually does.
+- Came to Rainier Lanes because he needed somewhere the court didn't follow him. Found it. Keeps coming back.
+- Wild fae things don't trust him on instinct. Mortals often do. He finds this genuinely surprising every time.

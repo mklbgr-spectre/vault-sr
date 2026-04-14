@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Inspection Notice — Rainier Lanes</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #ccc;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    padding: 32px 16px;
+  }
+
+  .page {
+    background: #fff;
+    width: 794px;
+    min-height: 1123px;
+    padding: 72px 80px 64px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    color: #111;
+    position: relative;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    padding-bottom: 16px;
+    border-bottom: 3px solid #111;
+    margin-bottom: 6px;
+  }
+
+  .seal {
+    flex-shrink: 0;
+    width: 64px;
+    height: 64px;
+    border: 2px solid #111;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', monospace;
+    font-size: 5.5px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.5;
+    color: #111;
+    padding: 6px;
+  }
+
+  .seal .seal-inner {
+    border: 1px solid #111;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+  }
+
+  .header-text {
+    flex: 1;
+  }
+
+  .dept-name {
+    font-size: 9px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #444;
+    margin-bottom: 3px;
+    font-family: 'Courier New', monospace;
+  }
+
+  .city-name {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+
+  .dept-full {
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 6px;
+  }
+
+  .contact-line {
+    font-size: 8.5px;
+    color: #666;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 0.5px;
+  }
+
+  /* ── NOTICE TITLE BAR ── */
+  .notice-bar {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 7px 0 6px 0;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 16px 0 20px 0;
+  }
+
+  /* ── META BLOCK ── */
+  .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    font-size: 10.5px;
+    font-family: 'Courier New', monospace;
+  }
+
+  .meta-left div { margin-bottom: 3px; }
+  .meta-right {
+    text-align: right;
+    border: 1px solid #bbb;
+    padding: 8px 12px;
+    font-size: 9.5px;
+    line-height: 1.8;
+    color: #444;
+  }
+
+  .meta-label {
+    color: #888;
+    font-size: 9px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  /* ── BODY ── */
+  .addressee {
+    font-size: 11.5px;
+    margin-bottom: 18px;
+    line-height: 1.8;
+  }
+
+  .re-line {
+    font-size: 10.5px;
+    font-weight: bold;
+    margin-bottom: 18px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  p {
+    font-size: 11px;
+    line-height: 1.75;
+    margin-bottom: 14px;
+    text-align: justify;
+  }
+
+  ul {
+    margin: 0 0 14px 28px;
+    font-size: 11px;
+    line-height: 1.9;
+  }
+
+  /* ── SIGNATURE ── */
+  .signature-block {
+    margin-top: 28px;
+    font-size: 11px;
+    line-height: 1.8;
+  }
+
+  .sig-line {
+    display: block;
+    width: 220px;
+    border-bottom: 1px solid #111;
+    height: 36px;
+    margin: 4px 0 4px 0;
+  }
+
+  /* ── FOOTER ── */
+  .footer {
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 8px;
+    color: #aaa;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 0.5px;
+  }
+
+  /* ── TEAR-OFF ── */
+  .tearoff {
+    margin-top: 32px;
+    border: 1px dashed #bbb;
+    padding: 14px 18px;
+    font-size: 9.5px;
+    font-family: 'Courier New', monospace;
+    color: #555;
+    line-height: 1.8;
+  }
+
+  .tearoff-title {
+    font-size: 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaa;
+    margin-bottom: 8px;
+  }
+
+  .tearoff-row {
+    display: flex;
+    gap: 40px;
+  }
+
+  .tearoff-field {
+    flex: 1;
+  }
+
+  .field-label {
+    font-size: 7.5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #aaa;
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .field-value {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2px;
+    min-height: 16px;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="seal">
+      <div class="seal-inner">
+        City<br>of<br>Seattle
+      </div>
+    </div>
+    <div class="header-text">
+      <div class="dept-name">Municipal Government</div>
+      <div class="city-name">City of Seattle</div>
+      <div class="dept-full">Seattle Department of Construction and Inspections</div>
+      <div class="contact-line">700 5th Avenue, Suite 2000 &nbsp;|&nbsp; Seattle, WA 98104 &nbsp;|&nbsp; (206) 684-8600 &nbsp;|&nbsp; seattle.gov/sdci</div>
+    </div>
+  </div>
+
+  <!-- NOTICE BAR -->
+  <div class="notice-bar">Notice of Compliance Inspection</div>
+
+  <!-- META -->
+  <div class="meta">
+    <div class="meta-left">
+      <div><span class="meta-label">Date Issued:</span> &nbsp; ___________________</div>
+      <div><span class="meta-label">Case No.:</span> &nbsp;&nbsp;&nbsp;&nbsp; SDCI-NOI-088471</div>
+      <div><span class="meta-label">Inspector:</span> &nbsp;&nbsp;&nbsp; D. M. Reeves, Field Operations</div>
+    </div>
+    <div class="meta-right">
+      INSPECTION DATE<br>
+      ___________________<br>
+      between 9:00 AM – 4:00 PM<br>
+      <span style="font-size:8.5px; color:#bbb">confirm receipt within 5 business days</span>
+    </div>
+  </div>
+
+  <!-- ADDRESSEE -->
+  <div class="addressee">
+    To: &nbsp;<strong>Marla Santoso</strong><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rainier Lanes<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2318 Rainier Avenue S., Seattle, WA 98144
+  </div>
+
+  <div class="re-line">
+    Re: &nbsp;Scheduled Premises Inspection — Noise Complaint Follow-Up / General Compliance Review
+  </div>
+
+  <!-- BODY -->
+  <p>
+    This notice is to inform you that the Seattle Department of Construction and Inspections will conduct a scheduled compliance inspection of the above-referenced premises on the date indicated. An authorized representative of the property must be present and available for the duration of the inspection.
+  </p>
+
+  <p>
+    This inspection has been initiated following receipt of formal noise complaints filed under Seattle Municipal Code 25.08 (Noise Control Ordinance). In addition to addressing the cited complaint(s), inspectors will conduct a general compliance review of the premises in accordance with SMC Title 22 (Building Code) and applicable fire and safety regulations.
+  </p>
+
+  <p>The inspection will include but may not be limited to:</p>
+
+  <ul>
+    <li>Exterior and common areas, including adjacent parking and access points</li>
+    <li>Structural condition and general building maintenance</li>
+    <li>Electrical systems, panels, and wiring compliance</li>
+    <li>Fire safety equipment, suppression systems, and egress routes</li>
+    <li>Ventilation, plumbing, and mechanical systems</li>
+    <li>Compliance with applicable ADA accessibility requirements</li>
+  </ul>
+
+  <p>
+    Failure to provide access to all areas of the premises, including maintenance and utility spaces, may constitute obstruction of a municipal inspection and may result in the issuance of a Notice of Violation, civil penalties under SMC 22.808.050, and referral for further enforcement action.
+  </p>
+
+  <p>
+    Please contact this office at (206) 684-8600 referencing the case number above to confirm receipt of this notice and to address any scheduling concerns. All written correspondence must include the case number.
+  </p>
+
+  <!-- SIGNATURE -->
+  <div class="signature-block">
+    Sincerely,<br>
+    <span class="sig-line"></span>
+    <strong>Daniel M. Reeves</strong><br>
+    Building Inspector, Field Operations Division<br>
+    Seattle Department of Construction and Inspections<br>
+    <span style="font-size:10px; color:#888; font-family:'Courier New',monospace;">dreeves@seattle.gov &nbsp;|&nbsp; direct: (206) 684-3847</span>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <span>SDCI-NOI-088471 &nbsp;·&nbsp; Rainier Lanes &nbsp;·&nbsp; 2318 Rainier Ave S.</span>
+    <span>Page 1 of 1</span>
+  </div>
+
+  <!-- TEAR-OFF -->
+  <div class="tearoff">
+    <div class="tearoff-title">&#x2702; &nbsp; Receipt Confirmation — Return to SDCI within 5 business days</div>
+    <div class="tearoff-row">
+      <div class="tearoff-field">
+        <span class="field-label">Case No.</span>
+        <span class="field-value">SDCI-NOI-088471</span>
+      </div>
+      <div class="tearoff-field">
+        <span class="field-label">Property</span>
+        <span class="field-value">Rainier Lanes, 2318 Rainier Ave S.</span>
+      </div>
+      <div class="tearoff-field">
+        <span class="field-label">Recipient Signature</span>
+        <span class="field-value">&nbsp;</span>
+      </div>
+      <div class="tearoff-field">
+        <span class="field-label">Date</span>
+        <span class="field-value">&nbsp;</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
