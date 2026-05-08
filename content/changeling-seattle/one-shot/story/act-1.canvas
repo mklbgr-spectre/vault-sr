@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"group-beats","type":"group","x":-520,"y":-360,"width":1640,"height":280,"label":"Main Beat Flow"},
+		{"id":"overview","type":"text","text":"## Act 1 — The Grind\n\n- Establish the space before anything supernatural happens\n- Give players a reason to care via Marla and the alley\n- Introduce the developer threat as mundane process, not villainy\n- Plant two threads for Act 2: the inspection, the neighbors\n- End: players decide to act\n\n*The players have no idea the Glome exists yet.*","x":-940,"y":-320,"width":380,"height":220},
+		{"id":"file-rainier","type":"file","file":"one-shot/locations/rainier-lanes.md","x":-940,"y":-60,"width":380,"height":120},
+		{"id":"opening","type":"text","text":"## Opening — Free Scene\n\nSlow evening. Nothing is supposed to happen.\n\n📖 *Read aloud: Eröffnungsnarration*\n\nThree questions — casually, not a formal round:\n1. **Where in the alley do you end up?**\n2. **What does Marla put in front of you without asking?**\n3. **Who here did you last see, and roughly when?**\n\n*Let this breathe. 20 minutes of inhabited space is worth more than an hour of plot the players don't care about yet.*","x":-500,"y":-320,"width":360,"height":300},
+		{"id":"letter","type":"text","text":"## The Letter\n\nPinned behind the bar. Sealed. Official city letterhead.\n\nMarla keeps glancing at it — **Perception + Empathy** catches it early. **Kenning** gets the wrongness of Banality paper in a Glamour-warm space.\n\n**How it gets opened:**\n- Player asks → she deflects once, then opens it herself\n- Player takes it down → she doesn't stop them\n- Marla opens it quietly, sets it face-down *(most Marla)*\n\n**Contents:** Second inspection notice. Electrical + egress. Two and a half weeks out.","x":-80,"y":-320,"width":360,"height":300},
+		{"id":"first-report","type":"text","text":"## The First Report\n\n*Do you have the first report?* — she pulls it from under the bar. Had it for months. Never read past the summary.\n\n**The appendix:**\n> Electrical panel, maintenance area: non-standard configuration… functioning under grandfathering provisions. Recommend review if modifications are planned.\n\n**The gut-punch:** She thought the first inspection was a win. It was the map Kyle needed.","x":320,"y":-320,"width":360,"height":260},
+		{"id":"noise","type":"text","text":"## Noise Complaints\n\nA stack of certified letters — six or seven, all the same bureaucratic format. Each response cost her a lawyer review. She doesn't know who filed them.\n\nThen, almost as an aside:\n*\"I keep thinking… if we just had an evening. Opened the parking lot, put out some food…\"*\n\nShe doesn't ask for anything. She moves on. But it's sitting there.\n\n→ **Solomon** knows who on the block talked to Momentum.","x":720,"y":-320,"width":360,"height":260},
+		{"id":"pressure","type":"text","text":"## Pressure in Play\n\nAt least one piece lands concretely — not just described:\n- Inspector drops off a supplementary notice in person\n- A regular mentions someone came asking about parking and noise\n- Solomon mentions his Momentum letter quietly to Marla *(party overhears)*\n\n*Different kith respond differently. Let it happen before anything is decided.*","x":720,"y":0,"width":360,"height":200},
+		{"id":"marla","type":"text","text":"## Marla — This Act\n\nWarm but strained. Answers honestly; doesn't volunteer the full scope. Does not mention the Glome. Does not mention her father unless directly asked.\n\nNot performing distress. *Managing* — and the players can see the edges of how much that is costing her.","x":-80,"y":35,"width":360,"height":285},
+		{"id":"file-neighborhood","type":"file","file":"one-shot/locations/neighborhood.md","x":-940,"y":120,"width":380,"height":250},
+		{"id":"act-end","type":"text","text":"## Act End\n\nSomeone says *we're not letting this happen* and the others agree.\n\nThe decision is theirs — not prompted by a supernatural revelation.\n\n*They care about this place. That's enough to start.*","x":1130,"y":-320,"width":320,"height":160},
+		{"id":"tone","type":"text","text":"**Tone note:** Weight of paperwork. Legitimate-looking processes. Things that are technically legal.\n\nResist mystery or foreshadowing. The mundanity is the point — the players should feel what Marla has been living with for months.","x":1130,"y":-130,"width":320,"height":130}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"overview","fromSide":"right","toNode":"opening","toSide":"left"},
+		{"id":"e2","fromNode":"opening","fromSide":"right","toNode":"letter","toSide":"left"},
+		{"id":"e3","fromNode":"letter","fromSide":"right","toNode":"first-report","toSide":"left"},
+		{"id":"e4","fromNode":"first-report","fromSide":"right","toNode":"noise","toSide":"left"},
+		{"id":"e5","fromNode":"noise","fromSide":"right","toNode":"act-end","toSide":"left"},
+		{"id":"e6","fromNode":"letter","fromSide":"bottom","toNode":"marla","toSide":"top"},
+		{"id":"e7","fromNode":"noise","fromSide":"bottom","toNode":"pressure","toSide":"top"},
+		{"id":"e8","fromNode":"overview","fromSide":"bottom","toNode":"file-rainier","toSide":"top"}
+	]
+}
